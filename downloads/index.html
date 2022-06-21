@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+
+    <meta charset='UTF-8' />
+    <meta name='viewport'
+          content='width=device-width, initial-scale=1.0' />
+    <meta name="theme-color" content="#4e4532">
+    <meta name="theme-color" content="#4e4532" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#4e4532" media="(prefers-color-scheme: dark)">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+
+    <title>Downloads | MTG Precon DB</title>
+
+    <script src="/js/bowser.js"></script>
+    <script src="/js/analytics.js"></script>
+    <script src="/js/papaparse.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
+
+    <script src="/downloads/js/jquery-ui.min.js"></script>
+    <script src="/downloads/js/floating-dialog.js"></script>
+    <script src="/downloads/js/download.js"></script>
+
+    <link rel='stylesheet' href='/css/jquery-ui.min.css'/>
+    <link rel='stylesheet' href='/css/main.css'/>
+    <link rel="stylesheet" href="/css/fontawesome.6.1.1.min.css">
+    <link rel='stylesheet' href='/downloads/css/download.css'/>
+
+    <link rel='preload' as='image' href='/downloads/images/flags_sprite.png' />
+    <link rel='preload' as='image' href='/downloads/images/icons_sprite.png' />
+
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li class="logo"><a href="https://deckbox.org/">
+                <img src="https://deckbox.org/images/icons/32x32/logo-light.png" class="icon_16x2"> &laquo; Deckbox
+            </a></li>
+            <li class="link"><a href="/downloads">Downloads</a></li>
+            <li class="link"><a href="/submit">Submissions</a></li>
+            <li class="link"><a href="/changelog">Changelog</a></li>
+            <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+            <li class="link"><a href="#" id="report">Report a problem</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main id="main" class="anchor">
+
+    <h1>CSV File Downloads</h1>
+    <section>
+
+        <fieldset class="shadow-box" id='downloadOptions'>
+            <h2>Download Options</h2>
+            <label class="userOption" for="selectMultiple" title='Add up to 10 CSV files to a batch,&#10;then download them as a single file.'>
+                Download Multiple
+                <input type="checkbox" name="selectMultiple" id="selectMultiple">
+            </label>
+            <label class="userOption" for="userPreset" title='Enable if you would like to choose&#10;your own default language or condition.'>
+                Set the following presets:
+                <input type="checkbox" name="userPreset" id="userPreset">
+            </label>
+            <label class="userOption halfWidth" for="userCondition" title="">
+                Condition
+                <select name="userCondition" id="userCondition">
+                    <option data-class="sprite s_star2 sprite_off"></option>
+                    <option data-class="sprite s_star1" selected>Mint</option>
+                    <option data-class="sprite s_star2">Near Mint</option>
+                    <option data-class="sprite s_star3">Good (Lightly Played)</option>
+                </select>
+            </label>
+            <label class="userOption halfWidth" for="userLanguage" title="">
+                Language
+                <select name="userLanguage" id="userLanguage">
+                    <option data-class="flag flag-us sprite_off"></option>
+                    <option data-class="flag flag-us" selected>English</option>
+                    <option data-class="flag flag-de">German</option>
+                    <option data-class="flag flag-fr">French</option>
+                    <option data-class="flag flag-it">Italian</option>
+                    <option data-class="flag flag-es">Spanish</option>
+                    <option data-class="flag flag-pt">Portuguese</option>
+                    <option data-class="flag flag-jp">Japanese</option>
+                    <option data-class="flag flag-cn">Chinese</option>
+                    <option data-class="flag flag-ru">Russian</option>
+                    <option data-class="flag flag-kr">Korean</option>
+                    <option data-class="flag flag-tw">Traditional Chinese</option>
+                </select>
+            </label>
+        </fieldset>
+
+        <div class='columns precons' id='precon_lists'>
+            <div class="lds-default"></div>
+            <script>for(var i=0;i<12;i++)$('.lds-default').append('<div/>')</script>
+        </div>
+
+    </section>
+
+
+    <h1>How to Import</h1>
+    <section id="page_info_wrap">
+        <div id="kofi" class="shadow-box">
+            <span>Appreciate this resource?</span>
+            <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet" type="text/css">
+            <a title="Support me on ko-fi.com" href="https://ko-fi.com/meldon44" target="_blank">
+                <img src="https://storage.ko-fi.com/cdn/cup-border.png" alt="Ko-fi donations" class="kofiimg" />
+                Buy me a booster! :)
+            </a>
+        </div>
+        <div id="page_info">
+            <blockquote class='optional note' style='line-height: 1; margin-bottom: 1.5rem;'>This page is a resource resulting from this <a href='https://deckbox.org/forum/viewtopic.php?id=28865'>Deckbox forum post</a>.</blockquote>
+
+            <p>Download CSV files for preconstructed decks from the lists above, then go to <strong class="command">Inventory</strong>&nbsp;&gt; <strong class="command">Add&nbsp;Cards</strong>&nbsp;&gt; <strong class="command">From&nbsp;a&nbsp;CSV&nbsp;File</strong> and import the deck. Note that this will <em>add to</em> your inventory rather than <em>replace</em> your inventory.</p>
+
+            <p>Note what cards each CSV contains prior to importing, in case you would like to edit the CSV first (e.g. split up a Duel Deck with a friend, change tokens from double-sided to single-sided, remove the basic lands, etc.).</p>
+
+            <div class="precons">
+                <h2 class="small-heading">Key:</h2>
+                <div class="list">
+                    <ul style="width: 250px">
+                        <li class="list_wrap" style="box-shadow: none; background: none"><h3 style="margin: 0.25rem calc(0.35rem - 1px); font-size: 1.2rem; width: 100%"><i class="fa fa-ban warning"></i>Discontinued series</h3></li>
+                        <li><a>100% accurate CSV</a></li>
+                        <li><a class="unverified">Unverified CSV <i class="fa fa-circle-info" style="color:blue; position:absolute; right:0.5rem; font-size:1.5rem; cursor:help" title="This usually just means the basic lands may not&#10;be split correctly between the different artworks."></i></a></li>
+                        <li><a class="missing">CSV not created yet</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+</body>
+</html>

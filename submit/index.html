@@ -1,0 +1,1864 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+
+    <meta charset='UTF-8' />
+    <meta name='viewport'
+          content='width=device-width, initial-scale=1.0' />
+    <meta name="theme-color" content="#4e4532">
+    <meta name="theme-color" content="#4e4532" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#4e4532" media="(prefers-color-scheme: dark)">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+
+    <title>Submissions | MTG Precon DB</title>
+
+    <link rel='stylesheet' href='/css/main.css'/>
+    <link rel="stylesheet" href="/css/fontawesome.6.1.1.min.css">
+    <link rel='stylesheet' href='/submit/css/submit.css'/>
+
+    <script src="/js/bowser.js"></script>
+    <script src="/js/analytics.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
+
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li class="logo"><a href="https://deckbox.org/">
+                <img src="https://deckbox.org/images/icons/32x32/logo-light.png" class="icon_16x2 "> &laquo; Deckbox
+            </a></li>
+            <li class="link"><a href="/downloads">Downloads</a></li>
+            <li class="link"><a href="/submit">Submissions</a></li>
+            <li class="link"><a href="/changelog">Changelog</a></li>
+            <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+            <li class="link"><a href="#" id="report">Report a problem</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main id="main" class="anchor">
+
+    <h1>CSV File Submissions</h1>
+
+    <section>
+		<div class="shadow-box" id="submit_steps">
+            <span>3 Simple Steps to&nbsp;Submit</span>
+            <ol>
+                <li><a href="#create">Create the CSV</a></li>
+                <li><a href="#verify">Verify the CSV</a> <em class="optional">(Optional)</em></li>
+                <li><a href="#upload">Upload the CSV</a></li>
+            </ol>
+		</div>
+
+		<h2 class="anchor" id="create">How to create a CSV</h2>
+		<p>There are two ways to do this: by hand or using decklists.</p>
+
+		<div class="list_wrap">
+			<h3>Create by hand</h3>
+			<div class="list panel">
+				<h4 class="boxed">Best for</h4>
+				<ul>
+					<li>Those who have the opened product</li>
+					<li>Those who are comfortable using a spreadsheet</li>
+					<li>Those who enjoy typing in card names one at a time</li>
+				</ul>
+				<h4 class="boxed">Steps</h4>
+				<ol>
+					<li><em class="optional">(Skip this step if you’ve already submitted before. Just use a copy of a previous CSV.)</em> To ensure you have a Deckbox-compatible CSV, either download a CSV export of your Deckbox inventory, or download one of the CSVs in this resource. Clear all the contents except the header row.</li>
+					<li>Ensure that only these columns are present, and in the following order: <strong class="command">Count</strong>, <strong class="command">Name</strong>, <strong class="command">Foil</strong>, <strong class="command">Card Number</strong>, <strong class="command">Edition</strong>. Please do not include <strong class="command">Language</strong> or <strong class="command">Condition</strong>, as these will be set by the end user.</li>
+					<li>Fill in all the information for each card. You can skip the card number <strong><em>except when the card has more than one artwork variation in that edition</em></strong>, such as with basic lands.
+						<ul>
+							<li>If a card is foil, enter <strong class="command">foil</strong> into that column; otherwise, leave that column blank.</li>
+							<li>If you aren’t sure on Deckbox’s naming convention for a given edition, you can find it on the <a href="https://deckbox.org/editions">Editions</a> page.</li>
+						</ul>
+					</li>
+					<li>Ensure you are following this guide’s best practices (see below).</li>
+				</ul>
+			</div>
+		</div>
+		<div class="list_wrap">
+			<h3>Create using decklists</h3>
+			<div class="list panel">
+				<h4 class="boxed">Best for</h4>
+				<ul>
+					<li>Those who want to keep their product sealed</li>
+					<li>Those who can verify via other methods, such as an unboxing video</li>
+					<li>Those who prefer following a series of process steps as opposed to entering cards individually</li>
+				</ul>
+				<h4 class="boxed">Prerequisites</h4>
+				You must either
+				<ul>
+					<li>feel comfortable backing up, deleting, and reinstating your inventory; or</li>
+					<li>have access to an additional dummy account on Deckbox (this is allowed if you obtain permission from Deckbox staff, as long as you never use the dummy account for trading/selling; <a href="https://deckbox.org/help/trade_rules">see rule 1.1</a>)</li>
+				</ul>
+				<h4 class="boxed">Steps</h4>
+				<p><strong>TL;DR</strong> &mdash; This list of 9 steps may feel much more complicated than the “by hand” approach, but once you've done it a couple times, it takes FAR less time than manual entry.</p>
+				<ol>
+					<li><em class="optional">(Skip if you’re using a dummy account)</em> Export your current inventory to CSV; save in a safe place. Go to <strong class="command">Tools</strong> > <strong class="command">Remove Everything</strong> to clear your online inventory.</li>
+					<li>Copy the decklist from any reputable source. (I know wikis have a bad rap, but I've found that <a href="https://mtg.fandom.com">MTG Wiki</a> is generally pretty reliable.)
+						<ul><li>Note any important info, such as which cards are foil, alternate art face cards (which often have their own edition on Deckbox), any included oversized cards or tokens, etc. These details can be manually changed&nbsp;/ entered later.</li></ul>
+					</li>
+					<li>Paste the decklist into <strong class="command">Add Cards</strong> > <strong class="command">Add Card List</strong>.</li>
+					<li>Switch the default edition to the correct one, and click <strong class="command">Import</strong>.</li>
+					<li><strong><em>Important</em></strong> &mdash; Multiple edition precons: Many precons, like Challenger Decks and Intro Packs, include cards from multiple editions. Check your decklist source for which editions cards can come from (MTG Wiki often will list this info). If your precon has multiple editions, follow these steps:
+						<ul>
+							<li>Repeat steps 3&ndash;4 for each possible edition. (This will add duplicates to your inventory.)</li>
+							<li>In <strong class="command">Search & Filter</strong>, add the <strong class="command">No Edition Set</strong> filter and <strong class="command">Apply</strong>.</li>
+							<li>Tick the topmost checkbox to select all cards on that page, then choose <strong class="command">Card Actions</strong> > <strong class="command">Remove Selected</strong>. Repeat until no more cards are displayed. Clear the filter.</li>
+							<li>If the total cards in inventory (you may have to refresh the page) is greater than the decklist, that means one or more cards was added from more than one valid edition. Sort by <strong class="command">Name</strong> to see which ones. You’ll have to use an unboxing video to determine which version is actually included in the deck. <em><strong>If you do not plan to verify</strong>, please clear the edition completely from the card</em> rather than choose one blindly.</li>
+						</ul>
+					</li>
+					<li>The following steps can be completed in any order, depending on whether you prefer working within Deckbox or a spreadsheet:
+						<ul>
+							<li>Sort inventory by edition (<strong class="command">E/#</strong>), then go to <strong class="command">Tools</strong> > <strong class="command">Export</strong>.</li>
+							<li>Perform all necessary manual changes on the cards, such as splitting basic lands into their correct artwork counts, setting the foil flag on face cards, adding cards not included in the decklist (such as oversized cards and tokens), etc.</li>
+						</ul>
+					</li>
+					<li>Ensure that the exported CSV contains only these columns, and in the following order: <strong class="command">Count</strong>, <strong class="command">Name</strong>, <strong class="command">Foil</strong>, <strong class="command">Card Number</strong>, <strong class="command">Edition</strong>. Please do not include <strong class="command">Language</strong> or <strong class="command">Condition</strong>, as these will be set by the end user.</li>
+					<li>Ensure you are following this guide’s best practices (see below).</li>
+					<li>Clear your online inventory. Re-import your original inventory from the CSV you exported in step 1.</li>
+				</ul>
+			</div>
+		</div>
+		<div class="list_wrap">
+			<h3>Best Practices</h3>
+			<div class="list panel">
+				<ul>
+					<li>It is preferred that the CSV is sorted by edition and collector number, though doing so is not necessary, as it will not negatively affect import nor break compatibility with other CSVs.</li>
+					<li>As an exception to the above, if the deck has a "face card" (such as a commander or the foil face cards of Intro/Planeswalker decks), it is preferred that this card is listed at the top of the CSV, directly below the header row.</li>
+					<li>If a precon has multiple parts, such as the two separate decks of the Duel Deck series or the main deck and sideboard of Challenger Decks, it is preferred that you keep them separated in the CSV file with a blank line.</li>
+					<li>If a card appears in more than one section (such as a playset being split between maindeck and sideboard), enter accurate counts for that card for each section. Deckbox will combine them.</li>
+				</ul>
+			</div>
+		</div>
+
+		<p>You can see at a glance which precons are still needed under <a href="#missing">Unverified / Missing CSVs</a> below.</p>
+
+		<h2 class="anchor" id="verify">How to verify a CSV</h2>
+		<blockquote class="shadow-box"><p><strong>Definition:</strong> "<dfn>Verified CSV</dfn>" means one that has been <em>confirmed beyond a shadow of a doubt to be 100% identical</em> to that precon coming straight out of the box, down to <em>every detail</em> such as how many of each basic land artwork are included.</p></blockquote>
+		<p>You are not required to verify the CSV in order to submit it, but please clearly indicate this lack of verification when submitting.</p>
+        <p>If you're not sure how to go about verifying a CSV, read the following tips.</p>
+		<div class="list_wrap">
+			<h3>Tips for verifying</h3>
+			<div class="list panel">
+				<p class="user-quote">I have an opened deck! I’ll just look at that.</p>
+				<p>Careful. If you don’t feel 100% confident that the opened deck you have is completely unaltered from when you first opened it, there’s no shame in that, but <em>please</em> don’t go with your gut or best guess and mark the file as verified. It would be much better to allow another user down the line to verify the CSV’s contents than to accidentally allow several dozen downloads of an inaccurate CSV.</p>
+				<p class="user-quote">No worries, I know for a fact that the contents have never been altered.</p>
+				<p>Cool. But you are not exempt from user error! Take your time and double check your entries. <em><strong>In particular,</strong></em> make sure any foil cards match the picture on Deckbox. They are sometimes alternate art promos (Intro Packs and Clash Packs both had these) that have their own special edition on Deckbox. Also double check the counts of each basic land artwork, comparing the picture on Deckbox to the one in your hand. It’s easy to get the counts of those mixed up.</p>
+				<p class="user-quote">I don’t have an unopened version of the deck. How can I verify it?</p>
+				<p>The best resource I’ve found are unboxing videos on YouTube. That said, many content creators assume the basic lands and tokens are of no interest to anyone, and either don’t show them at all or just skip through them in a clump. Those videos are useless. You’ll have to find videos where all the cards are actually displayed, even if just partially (enough that you can match the snippet of visible artwork to actual cards). You may have to slow down the video to 50% or even 25% speed. <em><strong>Make no assumptions!</strong></em> For instance, basic lands sometimes show up in weird orders, especially in older precons, so you need to actually track how many of each you see.</p>
+			</div>
+		</div>
+
+		<h2 class="anchor" id="upload">How to submit the CSV</h2>
+		<p>Please host your file on a cloud-sharing platform like Dropbox or Drive and share a link on <a href="https://deckbox.org/forum/viewtopic.php?id=28865">the original forum post</a> with your submission (you can't upload to the forum directly; that functionality is currently broken).</p>
+
+		<p>Alternatively, just open the CSV in Notepad and copy/paste the contents into a "code block" in your reply to the above forum post.</p>
+
+		<p>Indicate whether the CSV is verified and, if so, how (if you used an unboxing video, include a link to the source).</p>
+
+    </section>
+
+    <h1 class="anchor" id="missing">Unverified / Missing CSVs</h1>
+
+    <section>
+        <p>If you would like to contribute to the project, below is a list of all unverified or missing CSV files. Glance through the lists and see if a deck you own is among them. They are organized by the following product types (then sorted by edition):</p>
+
+        <ul>
+            <li>Event Deck</li>
+            <li>Intro Pack</li>
+            <li>Starter Set</li>
+            <li>Theme Deck</li>
+            <li>OTHER</li>
+        </ul>
+    </section>
+
+    <section class='columns'>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan=3>UNVERIFIED</th>
+                </tr>
+                <tr>
+                    <th>Type</th>
+                    <th>Product Name</th>
+                    <th>Edition</th>
+                </tr>
+            </thead>
+            <tbody> <!-- Event Deck -->
+                <tr>
+                    <td>Event Deck</td>
+                    <td>Rot from Within</td>
+                    <td>NPH</td>
+                </tr>
+                <tr>
+                    <td>Event Deck</td>
+                    <td>Infect and Defile</td>
+                    <td>MBS</td>
+                </tr>
+            </tbody>
+            <tbody> <!-- OTHER -->
+                <tr>
+                    <td>OTHER</td>
+                    <td>Jumpstart</td>
+                </tr>
+                <tr>
+                    <td>OTHER</td>
+                    <td>Defenders of the Cause</td>
+                    <td>Anthologies</td>
+                </tr>
+                <tr>
+                    <td>OTHER</td>
+                    <td>Dark Alliance</td>
+                    <td>Anthologies</td>
+                </tr>
+            </tbody>
+        </table>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan=3>MISSING</th>
+                </tr>
+                <tr>
+                    <th>Type</th>
+                    <th>Product Name</th>
+                    <th>Edition</th>
+                </tr>
+            </thead>
+            <tbody> <!-- Intro Pack -->
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Unlikely Alliances</td>
+                    <td>EMN</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Dangerous Knowledge</td>
+                    <td>EMN</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Shallow Graves</td>
+                    <td>EMN</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Untamed Wild</td>
+                    <td>EMN</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Weapons and Wards</td>
+                    <td>EMN</td>
+                </tr>
+
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Ghostly Tide</td>
+                    <td>SOI</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Unearthed Secrets</td>
+                    <td>SOI</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Vampiric Thirst</td>
+                    <td>SOI</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Angelic Fury</td>
+                    <td>SOI</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Horrific Visions</td>
+                    <td>SOI</td>
+                </tr>
+
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Desperate Stand</td>
+                    <td>OGW</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Twisted Reality</td>
+                    <td>OGW</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Vicious Cycle</td>
+                    <td>OGW</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Surge of Resistance</td>
+                    <td>OGW</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Concerted Effort</td>
+                    <td>OGW</td>
+                </tr>
+
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Rallying Cry</td>
+                    <td>BFZ</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Swarming Instinct</td>
+                    <td>BFZ</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Call of Blood</td>
+                    <td>BFZ</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Eldrazi Assault</td>
+                    <td>BFZ</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Zendikar's Rage</td>
+                    <td>BFZ</td>
+                </tr>
+
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Massed Ranks</td>
+                    <td>DTK</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Enlightened Mastery</td>
+                    <td>DTK</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Cruel Plots</td>
+                    <td>DTK</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Relentless Rush</td>
+                    <td>DTK</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Furious Forces</td>
+                    <td>DTK</td>
+                </tr>
+
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Unflinching Assault</td>
+                    <td>FRF</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Cunning Plan</td>
+                    <td>FRF</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Grave Advantage</td>
+                    <td>FRF</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Stampeding Hordes</td>
+                    <td>FRF</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Surprise Attack</td>
+                    <td>FRF</td>
+                </tr>
+
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Jeskai Monks</td>
+                    <td>KTK</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Sultai Schemers</td>
+                    <td>KTK</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Mardu Raiders</td>
+                    <td>KTK</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Temur Avalanche</td>
+                    <td>KTK</td>
+                </tr>
+
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Mortals of Myth</td>
+                    <td>JOU</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Fates Foreseen</td>
+                    <td>JOU</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Pantheon's Power</td>
+                    <td>JOU</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Voracious Rage</td>
+                    <td>JOU</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>The Wilds and the Deep</td>
+                    <td>JOU</td>
+                </tr>
+
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Gifts of the Gods</td>
+                    <td>BNG</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Inspiration-Struck</td>
+                    <td>BNG</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Death's Beginning</td>
+                    <td>BNG</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Forged in Battle</td>
+                    <td>BNG</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Insatiable Hunger</td>
+                    <td>BNG</td>
+                </tr>
+
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Favors from Nyx</td>
+                    <td>THS</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Manipulative Monstrosities</td>
+                    <td>THS</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Devotion to Darkness</td>
+                    <td>THS</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Blazing Beasts of Myth</td>
+                    <td>THS</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Anthousa's Army</td>
+                    <td>THS</td>
+                </tr>
+
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Angelic Might</td>
+                    <td>AVR</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Slaughterhouse</td>
+                    <td>AVR</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Fiery Dawn</td>
+                    <td>AVR</td>
+                </tr>
+
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Swift Justice</td>
+                    <td>DKA</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Relentless Dead</td>
+                    <td>DKA</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Dark Sacrifice</td>
+                    <td>DKA</td>
+                </tr>
+
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Spectral Legions</td>
+                    <td>ISD</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Eldritch Onslaught</td>
+                    <td>ISD</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Deathly Dominion</td>
+                    <td>ISD</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Carnival of Blood</td>
+                    <td>ISD</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Repel the Dark</td>
+                    <td>ISD</td>
+                </tr>
+
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Artful Destruction</td>
+                    <td>NPH</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Devouring Skies</td>
+                    <td>NPH</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Feast of Flesh</td>
+                    <td>NPH</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Life for Death</td>
+                    <td>NPH</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Ravaging Swarm</td>
+                    <td>NPH</td>
+                </tr>
+
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Path of Blight</td>
+                    <td>MBS</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Doom Inevitable</td>
+                    <td>MBS</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Mirromancy</td>
+                    <td>MBS</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Battle Cries</td>
+                    <td>MBS</td>
+                </tr>
+
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Myr of Mirrodin</td>
+                    <td>SOM</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Metalcraft</td>
+                    <td>SOM</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Deadspread</td>
+                    <td>SOM</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Relic Breaker</td>
+                    <td>SOM</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Phyrexian Poison</td>
+                    <td>SOM</td>
+                </tr>
+
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Levelers' Glory</td>
+                    <td>ROE</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Levelers' Scorn</td>
+                    <td>ROE</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Invading Spawn</td>
+                    <td>ROE</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Eldrazi Arisen</td>
+                    <td>ROE</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Totem Power</td>
+                    <td>ROE</td>
+                </tr>
+
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Brute Force</td>
+                    <td>WWK</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Fangs of the Bloodchief</td>
+                    <td>WWK</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Mysterious Realms</td>
+                    <td>WWK</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Rapid Fire</td>
+                    <td>WWK</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Flyover</td>
+                    <td>WWK</td>
+                </tr>
+
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Kor Armory</td>
+                    <td>ZEN</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Rise of the Vampires</td>
+                    <td>ZEN</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Unstable Terrain</td>
+                    <td>ZEN</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Pumped Up</td>
+                    <td>ZEN</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>The Adventurers</td>
+                    <td>ZEN</td>
+                </tr>
+
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Legion Aloft</td>
+                    <td>ARB</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Unnatural Schemes</td>
+                    <td>ARB</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Dead Ahead</td>
+                    <td>ARB</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Rumbler</td>
+                    <td>ARB</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Eternal Siege</td>
+                    <td>ARB</td>
+                </tr>
+
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Bant on the March</td>
+                    <td>CON</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Esper Air Assault</td>
+                    <td>CON</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Grixis Shambling Army</td>
+                    <td>CON</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Jund Appetite for War</td>
+                    <td>CON</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Naya Domain</td>
+                    <td>CON</td>
+                </tr>
+
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Bant Exalted</td>
+                    <td>ALA</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Esper Artifice</td>
+                    <td>ALA</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Grixis Undead</td>
+                    <td>ALA</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Primordial Jund</td>
+                    <td>ALA</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Naya Behemoths</td>
+                    <td>ALA</td>
+                </tr>
+
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Brave the Battle</td>
+                    <td>ORI</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Take to the Sky</td>
+                    <td>ORI</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Demonic Deals</td>
+                    <td>ORI</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Assemble Victory</td>
+                    <td>ORI</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Hunting Pack</td>
+                    <td>ORI</td>
+                </tr>
+
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Price of Glory</td>
+                    <td>M15</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Hit the Ground Running</td>
+                    <td>M15</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Infernal Intervention</td>
+                    <td>M15</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Flames of the Dragon</td>
+                    <td>M15</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Will of the Masses</td>
+                    <td>M15</td>
+                </tr>
+
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Lightforce</td>
+                    <td>M14</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Psychic Labyrinth</td>
+                    <td>M14</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Death Reaper</td>
+                    <td>M14</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Fire Surge</td>
+                    <td>M14</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Bestial Strength</td>
+                    <td>M14</td>
+                </tr>
+
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Depths of Power</td>
+                    <td>M13</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Mob Rule</td>
+                    <td>M13</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Wild Rush</td>
+                    <td>M13</td>
+                </tr>
+
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Sacred Assault</td>
+                    <td>M12</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Grab for Power</td>
+                    <td>M12</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Entangling Webs</td>
+                    <td>M12</td>
+                </tr>
+
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Blades of Victory</td>
+                    <td>M11</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Power of Prophecy</td>
+                    <td>M11</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Reign of Vampirism</td>
+                    <td>M11</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Breath of Fire</td>
+                    <td>M11</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Stampede of Beasts</td>
+                    <td>M11</td>
+                </tr>
+
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>We Are Legion</td>
+                    <td>M10</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Presence of Mind</td>
+                    <td>M10</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Death's Minions</td>
+                    <td>M10</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Firebomber</td>
+                    <td>M10</td>
+                </tr>
+                <tr>
+                    <td>Intro Pack</td>
+                    <td>Nature's Fury</td>
+                    <td>M10</td>
+                </tr>
+            </tbody>
+            <tbody> <!-- Starter Set -->
+                <tr>
+                    <td>Starter Set</td>
+                    <td>Welcome decks</td>
+                    <td>M19</td>
+                </tr>
+                <tr>
+                    <td>Starter Set</td>
+                    <td>Welcome decks</td>
+                    <td>2017</td>
+                </tr>
+                <tr>
+                    <td>Starter Set</td>
+                    <td>Welcome decks</td>
+                    <td>2016</td>
+                </tr>
+                <tr>
+                    <td>Starter Set</td>
+                    <td>Sample decks</td>
+                    <td>ORI</td>
+                </tr>
+                <tr>
+                    <td>Starter Set</td>
+                    <td>Sample decks</td>
+                    <td>M15</td>
+                </tr>
+                <tr>
+                    <td>Starter Set</td>
+                    <td>Sample decks</td>
+                    <td>M14</td>
+                </tr>
+                <tr>
+                    <td>Starter Set</td>
+                    <td>Sample decks</td>
+                    <td>M13</td>
+                </tr>
+                <tr>
+                    <td>Starter Set</td>
+                    <td>Sample decks</td>
+                    <td>M12</td>
+                </tr>
+                <tr>
+                    <td>Starter Set</td>
+                    <td>Sample decks</td>
+                    <td>M11</td>
+                </tr>
+                <tr>
+                    <td>Starter Set</td>
+                    <td>Sample decks</td>
+                    <td>10E</td>
+                </tr>
+                <tr>
+                    <td>Starter Set</td>
+                    <td>Core Game</td>
+                    <td>9ED</td>
+                </tr>
+                <tr>
+                    <td>Starter Set</td>
+                    <td>Core Game</td>
+                    <td>8ED</td>
+                </tr>
+                <tr>
+                    <td>Starter Set</td>
+                    <td>Two-Player Starter Set</td>
+                    <td>7ED</td>
+                </tr>
+                <tr>
+                    <td>Starter Set</td>
+                    <td>Two-Player Starter Set</td>
+                    <td>6ED</td>
+                </tr>
+                <tr>
+                    <td>Starter Set</td>
+                    <td>Two-Player Starter Set</td>
+                    <td>5ED</td>
+                </tr>
+                <tr>
+                    <td>Starter Set</td>
+                    <td>Game Box</td>
+                    <td>S00</td>
+                </tr>
+                <tr>
+                    <td>Starter Set</td>
+                    <td>Game Box</td>
+                    <td>S99</td>
+                </tr>
+                <tr>
+                    <td>Starter Set</td>
+                    <td>Two-Player Starter Set</td>
+                    <td>PTK</td>
+                </tr>
+                <tr>
+                    <td>Starter Set</td>
+                    <td>Two-Player Starter Set</td>
+                    <td>P02</td>
+                </tr>
+                <tr>
+                    <td>Starter Set</td>
+                    <td>Two-Player Starter Set</td>
+                    <td>POR</td>
+                </tr>
+                <tr>
+                    <td>Starter Set</td>
+                    <td>Introductory Two-Player Set</td>
+                </tr>
+                <tr>
+                    <td>Starter Set</td>
+                    <td>Rivals Quick Start Set</td>
+                </tr>
+            </tbody>
+            <tbody> <!-- Theme Deck -->
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Battle Blitz</td>
+                    <td>EVE</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Death March</td>
+                    <td>EVE</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Life Drain</td>
+                    <td>EVE</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Sidestep</td>
+                    <td>EVE</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Superabundance</td>
+                    <td>EVE</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Aura Mastery</td>
+                    <td>SHM</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Mortal Coil</td>
+                    <td>SHM</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Army of Entropy</td>
+                    <td>SHM</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Overkill</td>
+                    <td>SHM</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Turnabout</td>
+                    <td>SHM</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Battalion</td>
+                    <td>MOR</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Going Rogue</td>
+                    <td>MOR</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Shamanism</td>
+                    <td>MOR</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Warrior's Code</td>
+                    <td>MOR</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Kithkin Militia</td>
+                    <td>LRW</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Merrow Riverways</td>
+                    <td>LRW</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Boggart Feast</td>
+                    <td>LRW</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Elvish Predation</td>
+                    <td>LRW</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Elemental's Path</td>
+                    <td>LRW</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Fate Blaster</td>
+                    <td>FUT</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Future Shock</td>
+                    <td>FUT</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Rebels Unite</td>
+                    <td>FUT</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Suspended Sentence</td>
+                    <td>FUT</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Endless March</td>
+                    <td>PLC</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Ixidor's Legacy</td>
+                    <td>PLC</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Rituals of Rebirth</td>
+                    <td>PLC</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Unraveling Mind</td>
+                    <td>PLC</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Fun With Fungus</td>
+                    <td>TSP</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Hope's Crusaders</td>
+                    <td>TSP</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Reality Fracture</td>
+                    <td>TSP</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Sliver Evolution</td>
+                    <td>TSP</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Snowscape</td>
+                    <td>CSP</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Code of the Orzhov</td>
+                    <td>GPT</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Gruul Wilding</td>
+                    <td>GPT</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Charge of the Boros</td>
+                    <td>RAV</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Dimir Intrigues</td>
+                    <td>RAV</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Selesnya United</td>
+                    <td>RAV</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Critical Mass</td>
+                    <td>SOK</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Soratami's Wisdom</td>
+                    <td>SOK</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Spirit Flames</td>
+                    <td>SOK</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Truth Seekers</td>
+                    <td>SOK</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Dark Devotion</td>
+                    <td>BOK</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Ninjutsu</td>
+                    <td>BOK</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Rats' Nest</td>
+                    <td>BOK</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Spiritcraft</td>
+                    <td>BOK</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Kami Reborn</td>
+                    <td>CHK</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Snake's Path</td>
+                    <td>CHK</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Spiritbane</td>
+                    <td>CHK</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Way of the Warrior</td>
+                    <td>CHK</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Nuts and Bolts</td>
+                    <td>5DN</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Special Forces</td>
+                    <td>5DN</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Stampede</td>
+                    <td>5DN</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Sunburst</td>
+                    <td>5DN</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Master Blaster</td>
+                    <td>DST</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Mind Swarm</td>
+                    <td>DST</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Swarm & Slam</td>
+                    <td>DST</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Transference</td>
+                    <td>DST</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Bait & Bludgeon</td>
+                    <td>MRD</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Little Bashers</td>
+                    <td>MRD</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Sacrificial Bam</td>
+                    <td>MRD</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Wicked Big</td>
+                    <td>MRD</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Max Attax</td>
+                    <td>SCG</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Pulverize</td>
+                    <td>SCG</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Storm Surge</td>
+                    <td>SCG</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Elvish Rage</td>
+                    <td>LGN</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Morph Mayhem</td>
+                    <td>LGN</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Sliver Shivers</td>
+                    <td>LGN</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Zombies Unleashed</td>
+                    <td>LGN</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Bait and Switch</td>
+                    <td>ONS</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Celestial Assault</td>
+                    <td>ONS</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Devastation</td>
+                    <td>ONS</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Ivory Doom</td>
+                    <td>ONS</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Air Razers</td>
+                    <td>JUD</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Painflow</td>
+                    <td>JUD</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Spectral Slam</td>
+                    <td>JUD</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Burial</td>
+                    <td>APC</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Pandemonium</td>
+                    <td>APC</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Swoop</td>
+                    <td>APC</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Whirlpool</td>
+                    <td>APC</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Barrage</td>
+                    <td>PLS</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Comeback</td>
+                    <td>PLS</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Scout</td>
+                    <td>PLS</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Blowout</td>
+                    <td>INV</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Dismissal</td>
+                    <td>INV</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Heavy Duty</td>
+                    <td>INV</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Spectrum</td>
+                    <td>INV</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Distress</td>
+                    <td>PCY</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Pummel</td>
+                    <td>PCY</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Slither</td>
+                    <td>PCY</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Turnaround</td>
+                    <td>PCY</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Breakdown</td>
+                    <td>NEM</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Eruption</td>
+                    <td>NEM</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Mercenaries</td>
+                    <td>NEM</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Replicator</td>
+                    <td>NEM</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Deepwood Menace</td>
+                    <td>MMQ</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Disruptor</td>
+                    <td>MMQ</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Rebel's Call</td>
+                    <td>MMQ</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Tidal Mastery</td>
+                    <td>MMQ</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Assassin</td>
+                    <td>UDS</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Battle Surge</td>
+                    <td>UDS</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Enchanter</td>
+                    <td>UDS</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Fiendish Nature</td>
+                    <td>UDS</td>
+                </tr>
+
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Crusher</td>
+                    <td>ULG</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Phyrexian Assault</td>
+                    <td>ULG</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Radiant's Revenge</td>
+                    <td>ULG</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Time Drain</td>
+                    <td>ULG</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>The Plague</td>
+                    <td>USG</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Sleeper</td>
+                    <td>USG</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Special Delivery</td>
+                    <td>USG</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Tombstone</td>
+                    <td>USG</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Groundbreaker</td>
+                    <td>EXO</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>White Heat</td>
+                    <td>EXO</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Widowmaker</td>
+                    <td>EXO</td>
+                </tr>
+
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Call of the Kor</td>
+                    <td>STH</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Migraine</td>
+                    <td>STH</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>The Spikes</td>
+                    <td>STH</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Deep Freeze</td>
+                    <td>TMP</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>The Flames of Rath</td>
+                    <td>TMP</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>The Slivers</td>
+                    <td>TMP</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>The Swarm</td>
+                    <td>TMP</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Cho-Manno's Resolve</td>
+                    <td>10E</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Arcanis's Guile</td>
+                    <td>10E</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Evincar's Tyranny</td>
+                    <td>10E</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Kamahl's Temper</td>
+                    <td>10E</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Molimo's Might</td>
+                    <td>10E</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Army of Justice</td>
+                    <td>9ED</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Lofty Heights</td>
+                    <td>9ED</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Dead Again</td>
+                    <td>9ED</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>World Aflame</td>
+                    <td>9ED</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Custom Creatures</td>
+                    <td>9ED</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Life Boost</td>
+                    <td>8ED</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Sky Slam</td>
+                    <td>8ED</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Expulsion</td>
+                    <td>8ED</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Speed Scorch</td>
+                    <td>8ED</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Heavy Hitters</td>
+                    <td>8ED</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Armada</td>
+                    <td>7ED</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Bomber</td>
+                    <td>7ED</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Decay</td>
+                    <td>7ED</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Infestation</td>
+                    <td>7ED</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Way Wild</td>
+                    <td>7ED</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Blinding Fury</td>
+                    <td>S99</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Time Curse</td>
+                    <td>S99</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Deadly Instinct</td>
+                    <td>S99</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Goblin Assault</td>
+                    <td>S99</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Impaler</td>
+                    <td>S99</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Shu Kingdom</td>
+                    <td>PTK</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Wu Kingdom</td>
+                    <td>PTK</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Wei Kingdom</td>
+                    <td>PTK</td>
+                </tr>
+
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Martial Law</td>
+                    <td>P02</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Spellweaver</td>
+                    <td>P02</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Night Stalkers</td>
+                    <td>P02</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Goblin Fire</td>
+                    <td>P02</td>
+                </tr>
+                <tr>
+                    <td>Theme Deck</td>
+                    <td>Nature's Assault</td>
+                    <td>P02</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+</main>
+
+
+<script type="text/javascript">
+	initDropdowns( $( 'main' ).find( 'h3' ), '25rem' );
+</script>
+
+</body>
+</html>

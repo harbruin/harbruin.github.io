@@ -1,0 +1,111 @@
+/* How-To styling */
+
+#submit_steps {
+	flex-flow: column;
+	align-items: center;
+}
+#submit_steps span {
+	color: #888;
+	font-size: 3.2rem;
+	line-height: 1;
+	font-style: italic;
+	text-align: center;
+}
+#submit_steps ol {
+	margin: 1.12rem 0 0 1.92rem;
+}
+
+
+
+h4.boxed {
+	margin: 1.6rem 0 0.8rem;
+	border: 1px solid black;
+	background-color: var( --accent );
+	padding: 0.32rem 1.28rem;
+	width: 20rem;
+}
+
+
+
+blockquote.shadow-box {
+	margin: 1.6rem auto;
+	padding: 0.8rem 1.28rem 0;
+}
+
+
+
+p.user-quote {
+	display: table;
+	max-width: 80%;
+	margin: 1.6rem auto;
+	font-style: italic;
+	font-size: 1.2em;
+    font-family: Helvetica, Arial, sans-serif;
+	color: #888;
+	position: relative;
+	quotes: '\201c' '\201d';
+	hyphens: auto;
+}
+p.user-quote::before, p.user-quote::after {
+	font-size: 6.4rem;
+	position: absolute;
+}
+p.user-quote::before {
+	left: -0.5em;
+	top: 0.18em;
+	content: open-quote;
+}
+p.user-quote::after {
+	content: close-quote;
+	bottom: -0.18em;
+	margin-left: 0.32rem;
+}
+
+
+
+/* Dropdown styles */
+
+.list_wrap {
+	min-width: 21rem;
+	transition: max-width 0.3s;
+	overflow: hidden;
+	border: 1px solid var( --shade );
+	margin: 0.8rem 0;
+	position: relative;
+}
+.list_wrap h3 {
+	min-width: 21rem;
+}
+.list {
+	width: calc(100% - 2rem);
+}
+
+
+
+/* Table Layout */
+
+table {
+    border-collapse: collapse;
+    margin: 2em auto;
+}
+table td, table th {
+    padding: 0.5em;
+}
+table td {
+    font-size: 0.8em;
+    text-align: left;
+    border: 1px solid var( --shade );
+    background-color: rgba(0,0,0,0.05);
+}
+table th {
+    background-color: var( --accent );
+}
+table tr:first-child th {
+    background-color: var( --primary );
+    color: white;
+}
+tbody::after {
+    content: "";
+    display: block;
+    height: 1.5em;
+}

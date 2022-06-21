@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+
+    <meta charset='UTF-8' />
+    <meta name='viewport'
+          content='width=device-width, initial-scale=1.0' />
+    <meta name="theme-color" content="#4e4532">
+    <meta name="theme-color" content="#4e4532" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#4e4532" media="(prefers-color-scheme: dark)">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+
+    <title>Changelog | MTG Precon DB</title>
+
+    <link rel='stylesheet' href='/css/main.css'/>
+    <link rel="stylesheet" href="/css/fontawesome.6.1.1.min.css">
+    <link rel='stylesheet' href='/changelog/css/changelog.css'/>
+
+    <script src="/js/bowser.js"></script>
+    <script src="/js/analytics.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/changelog/js/marked.min.js"></script>
+
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li class="logo"><a href="https://deckbox.org/">
+                <img src="https://deckbox.org/images/icons/32x32/logo-light.png" class="icon_16x2 "> &laquo; Deckbox
+            </a></li>
+            <li class="link"><a href="/downloads">Downloads</a></li>
+            <li class="link"><a href="/submit">Submissions</a></li>
+            <li class="link"><a href="/changelog">Changelog</a></li>
+            <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+            <li class="link"><a href="#" id="report">Report a problem</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main id="main" class="anchor">
+
+    <h1>CHANGELOG</h1>
+
+    <section id="changelog"></section>
+    <script type="text/javascript">fetch('CHANGELOG.md').then(response=>response.text()).then(md=>document.getElementById('changelog').innerHTML=marked.parse(md))</script>
+
+</main>
+
+</body>
+</html>
