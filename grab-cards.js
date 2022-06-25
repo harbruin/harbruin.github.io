@@ -71,7 +71,7 @@
                     recProg.style.setProperty('--size',percentComplete+'%');
                     recProg.style.setProperty('--percent',percentComplete/100);
                 }).catch(()=>(--x,getData()));
-            },100*i))
+            },200*i))
         })
     ).then(result=>{
         const csvData = new Blob( ['Count,Name,Card Number,Edition\n'+result.join('\n')], {type: 'text/csv;charset=utf-8;'} ),
