@@ -63,7 +63,7 @@ Promise.all(
                 resolve( rows );
                 console.log('Resolved #'+(i+1)+': '+a.href.split('/').pop());
                 document.querySelector('#gc-received span').textContent = (++y)+' of '+arr.length;
-                const percentComplete = Math.round(100*(x)/arr.length);
+                const percentComplete = Math.round(100*(y)/arr.length);
                 const recProg = document.querySelector('#gc-received-prog');
                 recProg.style.setProperty('--size',percentComplete+'%');
                 recProg.style.setProperty('--percent',percentComplete/100);
