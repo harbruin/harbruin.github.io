@@ -35,7 +35,6 @@
         --percent: 0;
     }
     </style>
-    <h1>Progress</h1>
     <h2 id="gc-requested">Requested: <span></span></h2>
     <div class="gc-progress-bar" id="gc-requested-prog"></div>
     <h2 id="gc-received">Received: <span></span></h2>
@@ -46,8 +45,9 @@
     Promise.all(
         Array.from(document.querySelectorAll('#content a'))
        .filter(a=>a.href.includes('/editions/'))
-       .map((a,i,arr)=>
-            new Promise(resolve=>setTimeout(function getData(){
+       .map((a,i,arr)=>{
+            prog.querySelectorAll('span').forEach( span => span.textContent = '0 of '+arr.length );
+            return new Promise(resolve=>setTimeout(function getData(){
                 console.log('Fetching #'+(i+1)+': '+a.href.split('/').pop());
                 document.querySelector('#gc-requested span').textContent = (++x)+' of '+arr.length;
                 const percentComplete = Math.round(100*(x)/arr.length);
@@ -72,7 +72,7 @@
                     recProg.style.setProperty('--percent',percentComplete/100);
                 }).catch(()=>(--x,getData()));
             },100*i))
-        )
+        })
     ).then(result=>{
         const csvData = new Blob( ['Count,Name,Card Number,Edition\n'+result.join('\n')], {type: 'text/csv;charset=utf-8;'} ),
               exportFilename = 'Full Deckbox Card List.csv';
