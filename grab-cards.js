@@ -26,12 +26,12 @@ prog.innerHTML = `<style>
     transition: background 1s;
 }
 #gc-progress #gc-requested-prog {
-    --size: 50%;
-    --percent: 0.5;
+    --size: 0%;
+    --percent: 0;
 }
 #gc-progress #gc-received-prog {
-    --size: 40%;
-    --percent: 0.4;
+    --size: 0%;
+    --percent: 0;
 }
 </style>
 <h1>Progress</h1>
