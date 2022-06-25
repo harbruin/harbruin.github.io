@@ -43,7 +43,7 @@ prog.innerHTML = `<style>
 document.body.append( prog );
 var x = 0, y = 0;
 Promise.all(
-    Array.from(document.querySelectorAll('#content a')).slice(1,100).map((a,i,arr)=>
+    Array.from(document.querySelectorAll('#content a')).map((a,i,arr)=>
         new Promise(resolve=>setTimeout(function getData(){
             console.log('Fetching #'+(i+1)+': '+a.href.split('/').pop());
             document.querySelector('#gc-requested span').textContent = (++x)+' of '+arr.length;
@@ -58,7 +58,7 @@ Promise.all(
                 const rows = Array.from(div.querySelectorAll('.set_cards tr')).slice(1).map(row=>{
                     const num = row.querySelector('td').innerText.replace(/\D/g,'');
                     const name = '"'+row.querySelector('a').innerText.trim()+'"';
-                    return [name,num,set].join(',');
+                    return [1,name,num,set].join(',');
                 }).join('\n');
                 resolve( rows );
                 console.log('Resolved #'+(i+1)+': '+a.href.split('/').pop());
@@ -71,7 +71,7 @@ Promise.all(
         },100*i))
     )
 ).then(result=>{
-    const csvData = new Blob( ['Name,Card Number,Edition\n'+result.join('\n')], {type: 'text/csv;charset=utf-8;'} ),
+    const csvData = new Blob( ['Count,Name,Card Number,Edition\n'+result.join('\n')], {type: 'text/csv;charset=utf-8;'} ),
           exportFilename = 'Full Deckbox Card List.csv';
     if ( navigator.msSaveBlob ) {
         navigator.msSaveBlob( csvData, exportFilename );
