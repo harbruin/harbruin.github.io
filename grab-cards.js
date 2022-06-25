@@ -57,10 +57,10 @@
                 fetch(a.href).then(response=>response.text()).then(html=>{
                     const div = document.createElement('div');
                     div.innerHTML = html;
-                    const set = '"'+div.querySelector('.section_title').innerText.trim()+'"';
+                    const set = '"'+div.querySelector('.section_title').innerText.trim().replace('"','""')+'"';
                     const rows = Array.from(div.querySelectorAll('.set_cards tr')).slice(1).map(row=>{
                         const num = row.querySelector('td').innerText.replace(/\D/g,'');
-                        const name = '"'+row.querySelector('a').innerText.trim()+'"';
+                        const name = '"'+row.querySelector('a').innerText.trim().replace('"','""')+'"';
                         return [1,name,num,set].join(',');
                     }).join('\n');
                     resolve( rows );
