@@ -57,7 +57,8 @@
                 fetch(a.href).then(response=>response.text()).then(html=>{
                     const div = document.createElement('div');
                     div.innerHTML = html;
-                    const set = '"'+div.querySelector('.section_title').innerText.trim().replace('"','""')+'"';
+                    let set = div.querySelector('.section_title').innerText.trim();
+                    set = set.includes(',')? '"'+set+'"' : set;
                     const rows = Array.from(div.querySelectorAll('.set_cards tr')).slice(1).map(row=>{
                         const num = row.querySelector('td').innerText.replace(/\D/g,'');
                         const name = '"'+row.querySelector('a').innerText.trim().replace('"','""')+'"';
