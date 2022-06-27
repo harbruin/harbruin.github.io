@@ -68,7 +68,7 @@
                     const rows = Array.from(div.querySelectorAll('.set_cards tr')).slice(1).map(row=>{
                         const num = row.querySelector('td').innerText.replace(/\D/g,'');
                         let name = row.querySelector('a').innerText.trim();
-                        name.includes(',')? '"'+name.replace('"','""')+'"' : name;
+                        name = name.includes(',')? '"'+name.replace('"','""')+'"' : name;
                         return [1,name,num,set].join(',');
                     }).join('\n');
                     resolve( rows );
