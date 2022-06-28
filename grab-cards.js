@@ -24,9 +24,11 @@
         margin: 10px auto;
     }
     #gc-progress .gc-progress-bar {
+        --hue: calc(120 * var(--percent));
+        --hsl: hsl(var(--hue) 66% 50%);
         border: 1px solid var(--white);
         height: 2rem;
-        background-image: linear-gradient( to right, var(--white), var(--white) );
+        background-image: linear-gradient( to right, var(--hsl), var(--hsl) );
         background-size: calc(var(--size) - 0.4rem * var(--percent)) 1.6rem;
         background-position: 0.2rem;
         background-repeat: no-repeat;
