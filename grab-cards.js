@@ -67,10 +67,12 @@
                     set = set.includes(',')? '"'+set+'"' : set;
                     const rows = Array.from(div.querySelectorAll('.set_cards tr')).slice(1).map(row=>{
                         const num = row.querySelector('td').innerText.replace(/\D/g,'');
-                        let name = row.querySelector('a').innerText.trim();
-                        if ( name.includes(',') ) console.log( name );
-                        name = name.includes(',')? '"'+name.replace(/"/g,'""')+'"' : name;
-                        if ( name.includes(',') ) console.log( name );
+                        let name = row.querySelector('a').innerText.trim().replace(/"/g,'""');
+                        if ( name.includes(',') || name.includes('"') ) {
+                            console.log( name );
+                            name = name.includes(',') || name.includes('"')? '"'+name+'"' : name;
+                            console.log( name );
+                        }
                         return [1,name,num,set].join(',');
                     }).join('\n');
                     resolve( rows );
