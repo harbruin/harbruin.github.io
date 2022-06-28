@@ -54,7 +54,7 @@
        .map((a,i,arr)=>{
             prog.querySelectorAll('span').forEach( span => span.textContent = '0 of '+arr.length );
             return new Promise(resolve=>setTimeout(function getData(){
-                console.log('Fetching #'+(i+1)+': '+a.href.split('/').pop());
+                //console.log('Fetching #'+(i+1)+': '+a.href.split('/').pop());
                 document.querySelector('#gc-requested span').textContent = (++x)+' of '+arr.length;
                 const percentComplete = Math.round(100*(x)/arr.length);
                 const reqProg = document.querySelector('#gc-requested-prog');
@@ -68,11 +68,13 @@
                     const rows = Array.from(div.querySelectorAll('.set_cards tr')).slice(1).map(row=>{
                         const num = row.querySelector('td').innerText.replace(/\D/g,'');
                         let name = row.querySelector('a').innerText.trim();
+                        if ( name.includes(',') ) console.log( name );
                         name = name.includes(',')? '"'+name.replace(/"/g,'""')+'"' : name;
+                        if ( name.includes(',') ) console.log( name );
                         return [1,name,num,set].join(',');
                     }).join('\n');
                     resolve( rows );
-                    console.log('Resolved #'+(i+1)+': '+a.href.split('/').pop());
+                    //console.log('Resolved #'+(i+1)+': '+a.href.split('/').pop());
                     document.querySelector('#gc-received span').textContent = (++y)+' of '+arr.length;
                     const percentComplete = Math.round(100*(y)/arr.length);
                     const recProg = document.querySelector('#gc-received-prog');
