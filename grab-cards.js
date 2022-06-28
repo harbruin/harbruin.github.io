@@ -47,20 +47,21 @@
     <div class="gc-progress-bar" id="gc-received-prog"></div>
     `;
     document.body.append( prog );
-    var x = 0, y = 0;
+    let x = 0, y = 0;
     Promise.all(
-        Array.from(document.querySelectorAll('#content a'))
-       .filter(a=>a.href.includes('/editions/'))
-       .map((a,i,arr)=>{
+        [...new Set(Array.from(document.querySelectorAll('#content a'))
+        .filter(a=>a.href.includes('/editions/'))
+        .map(a=>a.href))]
+        .map((href,i,arr)=>{
             prog.querySelectorAll('span').forEach( span => span.textContent = '0 of '+arr.length );
             return new Promise(resolve=>setTimeout(function getData(){
-                //console.log('Fetching #'+(i+1)+': '+a.href.split('/').pop());
+                //console.log('Fetching #'+(i+1)+': '+href.split('/').pop());
                 document.querySelector('#gc-requested span').textContent = (++x)+' of '+arr.length;
                 const percentComplete = Math.round(100*(x)/arr.length);
                 const reqProg = document.querySelector('#gc-requested-prog');
                 reqProg.style.setProperty('--size',percentComplete+'%');
                 reqProg.style.setProperty('--percent',percentComplete/100);
-                fetch(a.href).then(response=>response.text()).then(html=>{
+                fetch(href).then(response=>response.text()).then(html=>{
                     const div = document.createElement('div');
                     div.innerHTML = html;
                     let set = div.querySelector('.section_title').innerText.trim();
@@ -68,13 +69,11 @@
                     const rows = Array.from(div.querySelectorAll('.set_cards tr')).slice(1).map(row=>{
                         const num = row.querySelector('td').innerText.replace(/\D/g,'');
                         let name = row.querySelector('a').innerText.trim().replace(/"/g,'""');
-                        if ( !name.includes(',') ) console.log( name );
                         name = name.includes(',') || name.includes('"')? '"'+name+'"' : name;
-                        if ( !name.includes(',') ) console.log( name );
                         return [1,name,num,set].join(',');
                     }).join('\n');
                     resolve( rows );
-                    //console.log('Resolved #'+(i+1)+': '+a.href.split('/').pop());
+                    //console.log('Resolved #'+(i+1)+': '+href.split('/').pop());
                     document.querySelector('#gc-received span').textContent = (++y)+' of '+arr.length;
                     const percentComplete = Math.round(100*(y)/arr.length);
                     const recProg = document.querySelector('#gc-received-prog');
