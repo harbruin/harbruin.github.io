@@ -323,7 +323,7 @@ $( function() {
                     file: dec.name,
                     series: dec.series,
                     set: dec.set,
-                    method: selectMultiple ? 'batch' : 'single',
+                    method: batchContents.length > 1 ? 'batch' : 'single',
                     language: userPreset? userLanguage : null,
                     condition: userPreset? userCondition : null
                 });
@@ -422,7 +422,7 @@ $( function() {
         changeOptions();
         $( '#selectMultiple, #userPreset, #userCondition, #userLanguage' )
             .on( 'change iconselectmenuchange', changeOptions );
-        $( '.list a:not(.missing)' ).click( function(e){
+        $( '#precon_lists a:not(.missing)' ).click( function(e){
             if ( selectMultiple ) {
                 batch( this );
             } else {
@@ -430,6 +430,29 @@ $( function() {
                 downloadBatch();
             }
         });
+
+
+        // Capture download URLs
+
+        if ( location.search ) {
+            const links = $( '#precon_lists a:not(.missing)' ).get();
+            const dl = location.search.slice(1)
+                        .split('&')
+                        .filter(p=>p.split('=')[0]==='dl');
+            dl.map( dl=>dl.split('=').pop() )
+              .forEach( url => {
+                const link = links.filter( a=>
+                    $(a).data().url.toLowerCase().includes( url.toLowerCase() )
+                );
+                batchContents.push( ...link );
+            });
+            if ( batchContents.length ) {
+                downloadBatch();
+                if ( window.history && history.replaceState )
+                    history.replaceState( null, null, location.href.split('?')[0] );
+            }
+        }
+
         const batchDialog = (new FloatingDialog({
             wrapperClass: 'precons',
             listClass: 'list',

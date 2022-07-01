@@ -1,3 +1,12 @@
+## [2.0.1] - 2022-06-30
+
+### Added
+- Battle for Baldur's Gate commander decks
+- 2022 Starter Kit
+- Streets of New Capenna commander decks
+- New Capenna welcome booster
+
+
 ## [2.0.0] - 2022-06-23
 
 ### Added
@@ -15,7 +24,9 @@
 - Data and structure are now fully separated; DOM is dynamically generated
 - Precons have been reorganized into better categories
 
+
 --------------------------------------------------
+
 
 ## [1.2.14] - 2022-04-13
 
