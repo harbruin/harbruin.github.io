@@ -15,58 +15,68 @@ $( function() {
     };
 
     const series = {
-        planeswalker: [
-            {sort:'name',order:'desc'}
-           ,{type:'set',flat:true,sort:'release',order:'asc'}
-        ],
-        intro: [
-            {sort:'name',order:'desc'}
-           ,{type:'set',flat:true,sort:'release',order:'desc'}
-           ,{type:'block',sort:'release',order:'asc'}
-        ],
-        theme: [
-            {sort:'name',order:'desc'}
-           ,{type:'set',flat:true,sort:'release',order:'desc'}
-           ,{type:'block',sort:'release',order:'asc'}
-        ],
-        clash: [
-            {sort:'release',order:'asc'}
-        ],
+
+        // Beginner
         starter: [
             {sort:'release',order:'asc'}
            ,{type:'info',flat:true,sort:'release'}
-        ],
-        toolkit: [
-            {sort:'release',order:'asc'}
         ],
         welcome: [
             {sort:'color',order:'desc'}
            ,{sort:'release',order:'asc'}
            ,{type:'info set',sort:'none'}
         ],
+        planeswalker: [
+            {sort:'color',order:'desc'}
+           ,{type:'set',flat:true,sort:'release',order:'asc'}
+        ],
+        intro: [
+            {sort:'color',order:'desc'}
+           ,{type:'set',flat:true,sort:'release',order:'desc'}
+           ,{type:'block',sort:'release',order:'asc'}
+        ],
+        theme: [
+            {sort:'color',order:'desc'}
+           ,{type:'set',flat:true,sort:'release',order:'desc'}
+           ,{type:'block',sort:'release',order:'asc'}
+        ],
+        clash: [
+            {sort:'release',order:'asc'}
+        ],
+        toolkit: [
+            {sort:'release',order:'asc'}
+        ],
+
+        // Competitive
         'challenger': [
-            {sort:'name',order:'desc'}
+            {sort:'color',order:'desc'}
            ,{type:'set',flat:true,sort:'release',order:'asc'}
         ],
         'event': [
-            {sort:'release',order:'asc'}
+            {sort:'color',order:'desc'}
+           ,{sort:'release',order:'asc'}
            ,{type:'format',flat:true,sort:'name',order:'desc'}
         ],
+
+        // Commander
         'annual-commander': [
-            {sort:'name',order:'desc'}
+            {sort:'color',order:'desc'}
            ,{type:'set',sort:'release',order:'asc'}
         ],
         'set-commander': [
-            {sort:'name',order:'desc'}
+            {sort:'color',order:'desc'}
            ,{type:'set',flat:true,sort:'release',order:'asc'}
         ],
         'commander-anthology': [
-            {sort:'name',order:'desc'}
+            {sort:'color',order:'desc'}
            ,{type:'set',flat:true,sort:'release',order:'asc'}
         ],
+
+        // Other Series
         'jumpstart': [
             {type:'info',flat:true,sort:'none'}
-           ,{type:'color',sort:'none',order:'desc'}
+           ,{type:'color',sort:'color',order:'desc'}
+           //,{type:'set',sort:'release',order:'asc'}
         ],
         'archenemy': [
             {sort:'color',order:'desc'}
@@ -82,16 +92,41 @@ $( function() {
         'premium': [
             {sort:'release'}
         ],
-        'guild-kit': [
-            {sort:'name',order:'desc'}
+        'world-champ': [
+            {sort:'release'}
+        ],
+
+        // Box Sets
+        'game-night': [
+            {sort:'color',order:'desc'}
            ,{type:'set',flat:true,sort:'release',order:'asc'}
         ],
         'explorers': [
             {sort:'color',order:'desc'}
         ],
-        'game-night': [
+        'deckmasters': [
+            {sort:'color',order:'desc'}
+        ],
+        'beatdown': [
+            {sort:'color',order:'desc'}
+        ],
+        'battle-royale': [
+            {sort:'color',order:'desc'}
+        ],
+        'anthologies': [
+            {sort:'color',order:'desc'}
+        ],
+
+        // Misc.
+        'brawl': [
+            {sort:'color',order:'desc'}
+        ],
+        'guild-kit': [
             {sort:'color',order:'desc'}
            ,{type:'set',flat:true,sort:'release',order:'asc'}
+        ],
+        'dotp': [
+            {sort:'color',order:'desc'}
         ]
     };
 
@@ -179,11 +214,7 @@ $( function() {
 
         $( '#precon_lists' ).empty().append( $rootElement )
         updateSort();
-        initDropdowns(
-            $( '#precon_lists' )
-            .find( 'h2, h3, h4' )
-            .filter( ':not([class*="category"])' )
-        );
+        initDropdowns( $('#precon_lists').find('h2,h3,h4,h5') );
         initBatch();
     }
 
@@ -231,8 +262,10 @@ $( function() {
                             if ( b_info < a_info ) compare = -1;
                             break;
                         case 'color':
-                            a_info ||= 99;
-                            b_info ||= 99;
+                            /*a_info = (db.colors[ a.color ] || {}).order || 99;
+                            b_info = (db.colors[ b.color ] || {}).order || 99;*/
+                            a_info = a.color? db.colors[ a.color ].order : 99;
+                            b_info = b.color? db.colors[ b.color ].order : 99;
                         case 'release':
                             compare = b_info - a_info;
                             break;

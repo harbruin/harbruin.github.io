@@ -1,3 +1,11 @@
+## [2.0.2] - 2022-09-18
+
+### Added
+- Dominaria United commander decks
+- DMU welcome booster
+- Placeholders for upcoming products
+
+
 ## [2.0.1] - 2022-06-30
 
 ### Added

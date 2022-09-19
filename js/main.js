@@ -136,32 +136,34 @@ function initDropdowns( elements, initialWidth ) {
 			$list.width( '' ).show().width( $list.width() ).css( 'display', display );
 			$wrap.css( { maxWidth: maxWidth, transition: '' } );
 		});
-		$this.on( 'click keydown', function(e){
-			if ( running || ( e.type==='keydown' && ( e.keyCode!==32 || e.key!==' ' ) ) )
-                return;
-			else
-                running = true;
-            if ( e.type === 'click' ) $this.blur();
-			var isOpen = $list.attr( 'data-opened' ) === 'true';
-			if ( initialWidth )
-				$wrap.css( 'max-width', maxWidth = ( isOpen ? initialWidth : '100%' ) );
-			$list.show().height( $list.prop( 'scrollHeight' ) + 'px' )
-				.delay( isOpen ? 10 : 301 )
-				.queue( function(n){$list.height('');n();} )
-				.delay( isOpen ? 301 : 0 )
-				.queue( function(n){
-					if ( isOpen ) $list.hide();
-					$list.attr( 'data-opened', !isOpen );
-					running = false;
-					n();
-				});
-			$this.toggleClass( 'open closed' );
-            e.preventDefault();
-		})
-		.toggleClass( 'closed ready' );
-        if ( !$wrap.hasClass('list_wrap') && $list.find('a').length === $list.find('a.missing').length )
+        if ( !$this.hasClass('category') ) {
+            $this.on( 'click keydown', function(e){
+                if ( running || ( e.type==='keydown' && ( e.keyCode!==32 || e.key!==' ' ) ) )
+                    return;
+                else
+                    running = true;
+                if ( e.type === 'click' ) $this.blur();
+                var isOpen = $list.attr( 'data-opened' ) === 'true';
+                if ( initialWidth )
+                    $wrap.css( 'max-width', maxWidth = ( isOpen ? initialWidth : '100%' ) );
+                $list.show().height( $list.prop( 'scrollHeight' ) + 'px' )
+                    .delay( isOpen ? 10 : 301 )
+                    .queue( function(n){$list.height('');n();} )
+                    .delay( isOpen ? 301 : 0 )
+                    .queue( function(n){
+                        if ( isOpen ) $list.hide();
+                        $list.attr( 'data-opened', !isOpen );
+                        running = false;
+                        n();
+                    });
+                $this.toggleClass( 'open closed' );
+                e.preventDefault();
+            })
+            .toggleClass( 'closed ready' );
+            $list.hide().attr( 'data-opened', false );
+        }
+        if ( !$wrap.hasClass('list_wrap') && !$list.find('a:not(.missing)').length )
             $this.addClass( 'disabled' );
-		$list.hide().attr( 'data-opened', false );
 		if ( initialWidth ) {
 			$list.width( $list.width() );
 			$wrap.css( 'max-width', initialWidth );

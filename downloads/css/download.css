@@ -503,11 +503,10 @@ fieldset .userOption.halfWidth {
     --lum: 75%;
     color: var(--dark);
 }
-.flag-jp::after {
+.flag-jp::before {
     content: '';
     width: 16px;
     height: 11px;
-    margin-left: auto;
     margin-right: 5px;
     background: url(../images/flags_sprite.png) no-repeat;
     background-position: -240px -66px;
@@ -516,8 +515,10 @@ fieldset .userOption.halfWidth {
 .color {
     position: absolute;
     right: 0;
+    top: 50%;
+    transform: translateY(-50%);
     display: flex;
-    display: none !important;
+    display: none;
     align-items: center;
     padding: 0.5rem;
     padding-left: 4rem;
@@ -529,6 +530,11 @@ a:hover .color {
     opacity: 0;
     transition: opacity 0.1s, right 0.2s;
     right: -5rem;
+}
+a.missing .color {
+    opacity: 0.5;
+    right: 0;
+    filter: grayscale(1);
 }
 .color i {
     display: block;
@@ -562,7 +568,7 @@ a:hover .color {
     background-color: green;
     background-image: url(https://gatherer.wizards.com/images/Redesign/Green_Mana.png);
 }
-
+/*.color, .disabled, .disabled + .list, .missing {display:none!important}
 
 
 /* Random Styles */
