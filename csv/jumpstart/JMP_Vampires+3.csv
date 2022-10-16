@@ -1,19 +1,19 @@
-﻿Count,Name,Card Number,Edition,Language
-1,Vampires,42,Jumpstart Front Cards,English
-1,Nocturnal Feeder,16,Jumpstart,English
-1,Thriving Moor,37,Jumpstart,English
-1,Swamp,60,Jumpstart,English
-1,Agonizing Syphon,199,Jumpstart,English
-1,Bloodbond Vampire,209,Jumpstart,English
-1,Exquisite Blood,231,Jumpstart,English
-1,Gifted Aetherborn,239,Jumpstart,English
-1,Last Gasp,247,Jumpstart,English
-1,Sangromancer,272,Jumpstart,English
-1,Sengir Vampire,275,Jumpstart,English
-1,Vampire Neonate,285,Jumpstart,English
-1,Gloom Sower,100,Core Set 2021,English
-1,Sanguine Indulgence,121,Core Set 2021,English
-1,Silversmote Ghoul,122,Core Set 2021,English
-2,Swamp,266,Core Set 2021,English
-2,Swamp,267,Core Set 2021,English
-2,Swamp,268,Core Set 2021,English
+﻿Count,Name,Foil,Card Number,Edition
+1,Vampires,,42,Jumpstart Front Cards
+1,Nocturnal Feeder,,16,Jumpstart
+1,Thriving Moor,,37,Jumpstart
+1,Agonizing Syphon,,199,Jumpstart
+1,Bloodbond Vampire,,209,Jumpstart
+1,Exquisite Blood,,231,Jumpstart
+1,Gifted Aetherborn,,239,Jumpstart
+1,Last Gasp,,247,Jumpstart
+1,Sangromancer,,272,Jumpstart
+1,Sengir Vampire,,275,Jumpstart
+1,Vampire Neonate,,285,Jumpstart
+1,Gloom Sower,,100,Core Set 2021
+1,Sanguine Indulgence,,121,Core Set 2021
+1,Silversmote Ghoul,,122,Core Set 2021
+2,Swamp,,266,Core Set 2021
+2,Swamp,,267,Core Set 2021
+2,Swamp,,268,Core Set 2021
+1,Swamp,,60,Jumpstart

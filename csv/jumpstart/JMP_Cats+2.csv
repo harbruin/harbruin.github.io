@@ -1,19 +1,19 @@
-﻿Count,Name,Card Number,Edition,Language
-1,Cats,5,Jumpstart Front Cards,English
-1,Thriving Grove,34,Jumpstart,English
-1,Forest,74,Jumpstart,English
-1,Crushing Canopy,386,Jumpstart,English
-1,Enlarge,392,Jumpstart,English
-1,Feral Invocation,396,Jumpstart,English
-1,Feral Prowler,397,Jumpstart,English
-1,Initiate's Companion,403,Jumpstart,English
-1,Keeper of Fables,407,Jumpstart,English
-1,Lurking Predators,410,Jumpstart,English
-1,Nature's Way,412,Jumpstart,English
-1,Penumbra Bobcat,418,Jumpstart,English
-1,Canopy Stalker,175,Core Set 2021,English
-1,Feline Sovereign,180,Core Set 2021,English
-1,Pridemalkin,196,Core Set 2021,English
-2,Forest,272,Core Set 2021,English
-2,Forest,273,Core Set 2021,English
-2,Forest,274,Core Set 2021,English
+﻿Count,Name,Foil,Card Number,Edition
+1,Cats,,5,Jumpstart Front Cards
+1,Thriving Grove,,34,Jumpstart
+1,Crushing Canopy,,386,Jumpstart
+1,Enlarge,,392,Jumpstart
+1,Feral Invocation,,396,Jumpstart
+1,Feral Prowler,,397,Jumpstart
+1,Initiate's Companion,,403,Jumpstart
+1,Keeper of Fables,,407,Jumpstart
+1,Lurking Predators,,410,Jumpstart
+1,Nature's Way,,412,Jumpstart
+1,Penumbra Bobcat,,418,Jumpstart
+1,Canopy Stalker,,175,Core Set 2021
+1,Feline Sovereign,,180,Core Set 2021
+1,Pridemalkin,,196,Core Set 2021
+2,Forest,,272,Core Set 2021
+2,Forest,,273,Core Set 2021
+2,Forest,,274,Core Set 2021
+1,Forest,,74,Jumpstart

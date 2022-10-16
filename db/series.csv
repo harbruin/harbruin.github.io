@@ -9,6 +9,7 @@ toolkit,Deck Builder's Toolkit,beginner,TRUE,,
 challenger,Challenger Decks,comp,,"60 card deck, 15 card sideboard, and accompanying tokens (2020 and later)",
 event,Event Decks,comp,TRUE,60 card deck and 15 card sideboard,
 set-commander,Set Decks,commander,,,
+ub-commander,Universes Beyond,commander,,,
 commander-anthology,Commander Anthology,commander,,,
 annual-commander,Annual Releases,commander,TRUE,one deck and accompanying oversized cards (main releases only) and tokens (2014 and later),
 jumpstart,Jumpstart,series,,20 card pack and front card,"Many Jumpstart themes have more than one variant. In order to help you easily distinguish which specific CSV you'll need, a card that is unique to that variant (at least, within the context of that theme; the card may appear in other themes) has been listed. If two card names separated by a + are given, that means that, while no single card was unique to that variant, the specific combination of those two cards isn't found in any other variant of that theme.<br><br>TL;DR &mdash; If the noted card(s) is in your pack, that CSV should match your pack list.<br><br><strong class=""warning"">All CSVs are marked as unverified due to the basic lands, but all other cards in the CSVs should be accurate.</strong>"

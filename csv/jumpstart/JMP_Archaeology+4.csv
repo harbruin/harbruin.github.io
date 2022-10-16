@@ -1,19 +1,19 @@
-﻿Count,Name,Card Number,Edition,Language
-1,Archaeology,3,Jumpstart Front Cards,English
-2,Archaeomender,9,Jumpstart,English
-1,Lightning-Core Excavator,32,Jumpstart,English
-1,Thriving Isle,36,Jumpstart,English
-1,Island,49,Jumpstart,English
-1,Thirst for Knowledge,183,Jumpstart,English
-1,Aether Spellbomb,456,Jumpstart,English
-1,Jousting Dummy,470,Jumpstart,English
-1,Juggernaut,471,Jumpstart,English
-1,Meteor Golem,474,Jumpstart,English
-1,Scarecrone,482,Jumpstart,English
-1,Scuttlemutt,484,Jumpstart,English
-1,Signpost Scarecrow,485,Jumpstart,English
-1,Buried Ruin,491,Jumpstart,English
-1,Short Sword,236,Core Set 2021,English
-2,Island,263,Core Set 2021,English
-2,Island,264,Core Set 2021,English
-1,Island,265,Core Set 2021,English
+﻿Count,Name,Foil,Card Number,Edition
+1,Archaeology,,3,Jumpstart Front Cards
+2,Archaeomender,,9,Jumpstart
+1,Lightning-Core Excavator,,32,Jumpstart
+1,Thriving Isle,,36,Jumpstart
+1,Thirst for Knowledge,,183,Jumpstart
+1,Aether Spellbomb,,456,Jumpstart
+1,Jousting Dummy,,470,Jumpstart
+1,Juggernaut,,471,Jumpstart
+1,Meteor Golem,,474,Jumpstart
+1,Scarecrone,,482,Jumpstart
+1,Scuttlemutt,,484,Jumpstart
+1,Signpost Scarecrow,,485,Jumpstart
+1,Buried Ruin,,491,Jumpstart
+1,Short Sword,,236,Core Set 2021
+2,Island,,263,Core Set 2021
+2,Island,,264,Core Set 2021
+1,Island,,265,Core Set 2021
+1,Island,,49,Jumpstart

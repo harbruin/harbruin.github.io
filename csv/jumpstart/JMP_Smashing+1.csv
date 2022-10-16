@@ -1,19 +1,19 @@
-﻿Count,Name,Card Number,Edition,Language
-1,Smashing,34,Jumpstart Front Cards,English
-1,Thriving Bluff,33,Jumpstart,English
-1,Mountain,67,Jumpstart,English
-1,Bloodrage Brawler,296,Jumpstart,English
-1,Borderland Marauder,300,Jumpstart,English
-1,Flametongue Kavu,319,Jumpstart,English
-1,Fling,320,Jumpstart,English
-1,Bone Pit Brute,132,Core Set 2021,English
-1,Furious Rise,144,Core Set 2021,English
-1,Heartfire Immolator,150,Core Set 2021,English
-1,Onakke Ogre,155,Core Set 2021,English
-1,Shock,159,Core Set 2021,English
-1,Turret Ogre,169,Core Set 2021,English
-1,Unleash Fury,170,Core Set 2021,English
-1,Volcanic Salvo,172,Core Set 2021,English
-2,Mountain,269,Core Set 2021,English
-2,Mountain,270,Core Set 2021,English
-2,Mountain,271,Core Set 2021,English
+﻿Count,Name,Foil,Card Number,Edition
+1,Smashing,,34,Jumpstart Front Cards
+1,Thriving Bluff,,33,Jumpstart
+1,Bloodrage Brawler,,296,Jumpstart
+1,Borderland Marauder,,300,Jumpstart
+1,Flametongue Kavu,,319,Jumpstart
+1,Fling,,320,Jumpstart
+1,Bone Pit Brute,,132,Core Set 2021
+1,Furious Rise,,144,Core Set 2021
+1,Heartfire Immolator,,150,Core Set 2021
+1,Onakke Ogre,,155,Core Set 2021
+1,Shock,,159,Core Set 2021
+1,Turret Ogre,,169,Core Set 2021
+1,Unleash Fury,,170,Core Set 2021
+1,Volcanic Salvo,,172,Core Set 2021
+2,Mountain,,269,Core Set 2021
+2,Mountain,,270,Core Set 2021
+2,Mountain,,271,Core Set 2021
+1,Mountain,,67,Jumpstart

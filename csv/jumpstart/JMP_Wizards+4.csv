@@ -1,19 +1,19 @@
-﻿Count,Name,Card Number,Edition,Language
-1,Wizards,46,Jumpstart Front Cards,English
-1,Thriving Isle,36,Jumpstart,English
-1,Island,47,Jumpstart,English
-1,Peel from Reality,163,Jumpstart,English
-1,Sage's Row Savant,171,Jumpstart,English
-1,Storm Sculptor,179,Jumpstart,English
-1,Talrand's Invocation,182,Jumpstart,English
-1,Wizard's Retort,198,Jumpstart,English
-1,"Barrin, Tolarian Archmage",45,Core Set 2021,English
-1,Frost Breath,51,Core Set 2021,English
-1,Rain of Revelation,61,Core Set 2021,English
-1,Read the Tides,62,Core Set 2021,English
-1,Shipwreck Dowser,71,Core Set 2021,English
-1,Teferi's Protege,77,Core Set 2021,English
-1,Vodalian Arcanist,83,Core Set 2021,English
-2,Island,263,Core Set 2021,English
-2,Island,264,Core Set 2021,English
-2,Island,265,Core Set 2021,English
+﻿Count,Name,Foil,Card Number,Edition
+1,Wizards,,46,Jumpstart Front Cards
+1,Thriving Isle,,36,Jumpstart
+1,Peel from Reality,,163,Jumpstart
+1,Sage's Row Savant,,171,Jumpstart
+1,Storm Sculptor,,179,Jumpstart
+1,Talrand's Invocation,,182,Jumpstart
+1,Wizard's Retort,,198,Jumpstart
+1,"Barrin, Tolarian Archmage",,45,Core Set 2021
+1,Frost Breath,,51,Core Set 2021
+1,Rain of Revelation,,61,Core Set 2021
+1,Read the Tides,,62,Core Set 2021
+1,Shipwreck Dowser,,71,Core Set 2021
+1,Teferi's Protege,,77,Core Set 2021
+1,Vodalian Arcanist,,83,Core Set 2021
+2,Island,,263,Core Set 2021
+2,Island,,264,Core Set 2021
+2,Island,,265,Core Set 2021
+1,Island,,47,Jumpstart

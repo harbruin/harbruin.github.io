@@ -1,86 +1,87 @@
-Count,Name,Foil,Card Number,Edition,Language
-1,"Prosper, Tome-Bound",foil,2,Adventures in the Forgotten Realms Commander,English
-1,"Karazikar, the Eye Tyrant",foil,49,Adventures in the Forgotten Realms Commander,English
-1,Bag of Devouring,,21,Adventures in the Forgotten Realms Commander,English
-1,Danse Macabre,,22,Adventures in the Forgotten Realms Commander,English
-1,Death Tyrant,,23,Adventures in the Forgotten Realms Commander,English
-1,Grim Hireling,,25,Adventures in the Forgotten Realms Commander,English
-1,Hellish Rebuke,,26,Adventures in the Forgotten Realms Commander,English
-1,"Lorcan, Warlock Collector",,27,Adventures in the Forgotten Realms Commander,English
-1,Fiendlash,,31,Adventures in the Forgotten Realms Commander,English
-1,Reckless Endeavor,,33,Adventures in the Forgotten Realms Commander,English
-1,Share the Spoils,,34,Adventures in the Forgotten Realms Commander,English
-1,Wild-Magic Sorcerer,,36,Adventures in the Forgotten Realms Commander,English
-1,Fevered Suspicion,,47,Adventures in the Forgotten Realms Commander,English
-1,Hurl Through Hell,,48,Adventures in the Forgotten Realms Commander,English
-1,Bucknard's Everfull Purse,,57,Adventures in the Forgotten Realms Commander,English
-1,Ebony Fly,,60,Adventures in the Forgotten Realms Commander,English
-1,Underdark Rift,,62,Adventures in the Forgotten Realms Commander,English
-1,Chittering Witch,,95,Adventures in the Forgotten Realms Commander,English
-1,Consuming Vapors,,96,Adventures in the Forgotten Realms Commander,English
-1,Dead Man's Chest,,97,Adventures in the Forgotten Realms Commander,English
-1,Fiend of the Shadows,,99,Adventures in the Forgotten Realms Commander,English
-1,"Gonti, Lord of Luxury",,100,Adventures in the Forgotten Realms Commander,English
-1,Hex,,101,Adventures in the Forgotten Realms Commander,English
-1,Marionette Master,,102,Adventures in the Forgotten Realms Commander,English
-1,Ogre Slumlord,,104,Adventures in the Forgotten Realms Commander,English
-1,Phthisis,,105,Adventures in the Forgotten Realms Commander,English
-1,Piper of the Swarm,,106,Adventures in the Forgotten Realms Commander,English
-1,Pontiff of Blight,,108,Adventures in the Forgotten Realms Commander,English
-1,Apex of Power,,114,Adventures in the Forgotten Realms Commander,English
-1,Chaos Warp,,117,Adventures in the Forgotten Realms Commander,English
-1,Commune with Lava,,118,Adventures in the Forgotten Realms Commander,English
-1,Dark-Dweller Oracle,,119,Adventures in the Forgotten Realms Commander,English
-1,Dire Fleet Daredevil,,121,Adventures in the Forgotten Realms Commander,English
-1,Disrupt Decorum,,122,Adventures in the Forgotten Realms Commander,English
-1,Dream Pillager,,125,Adventures in the Forgotten Realms Commander,English
-1,"Etali, Primal Storm",,126,Adventures in the Forgotten Realms Commander,English
-1,Ignite the Future,,129,Adventures in the Forgotten Realms Commander,English
-1,Izzet Chemister,,130,Adventures in the Forgotten Realms Commander,English
-1,Light Up the Stage,,131,Adventures in the Forgotten Realms Commander,English
-1,Loyal Apprentice,,132,Adventures in the Forgotten Realms Commander,English
-1,Shiny Impetus,,138,Adventures in the Forgotten Realms Commander,English
-1,Tectonic Giant,,144,Adventures in the Forgotten Realms Commander,English
-1,Throes of Chaos,,146,Adventures in the Forgotten Realms Commander,English
-1,Vandalblast,,148,Adventures in the Forgotten Realms Commander,English
-1,Bedevil,,179,Adventures in the Forgotten Realms Commander,English
-1,Bituminous Blast,,181,Adventures in the Forgotten Realms Commander,English
-1,Rakdos Charm,,190,Adventures in the Forgotten Realms Commander,English
-1,Terminate,,193,Adventures in the Forgotten Realms Commander,English
-1,Theater of Horrors,,194,Adventures in the Forgotten Realms Commander,English
-1,Arcane Signet,,197,Adventures in the Forgotten Realms Commander,English
-1,Chaos Wand,,201,Adventures in the Forgotten Realms Commander,English
-1,Commander's Sphere,,203,Adventures in the Forgotten Realms Commander,English
-1,Fellwar Stone,,206,Adventures in the Forgotten Realms Commander,English
-1,Mind Stone,,211,Adventures in the Forgotten Realms Commander,English
-1,Orazca Relic,,213,Adventures in the Forgotten Realms Commander,English
-1,Rakdos Signet,,214,Adventures in the Forgotten Realms Commander,English
-1,Sol Ring,,215,Adventures in the Forgotten Realms Commander,English
-1,Talisman of Indulgence,,219,Adventures in the Forgotten Realms Commander,English
-1,Unstable Obelisk,,220,Adventures in the Forgotten Realms Commander,English
-1,Bojuka Bog,,226,Adventures in the Forgotten Realms Commander,English
-1,Command Tower,,230,Adventures in the Forgotten Realms Commander,English
-1,Exotic Orchard,,236,Adventures in the Forgotten Realms Commander,English
-1,Foreboding Ruins,,238,Adventures in the Forgotten Realms Commander,English
-1,Mortuary Mire,,249,Adventures in the Forgotten Realms Commander,English
-1,Rakdos Carnarium,,257,Adventures in the Forgotten Realms Commander,English
-1,Shadowblood Ridge,,259,Adventures in the Forgotten Realms Commander,English
-1,Smoldering Marsh,,262,Adventures in the Forgotten Realms Commander,English
-1,Spinerock Knoll,,263,Adventures in the Forgotten Realms Commander,English
-1,Tainted Peak,,266,Adventures in the Forgotten Realms Commander,English
-1,Zhalfirin Void,,273,Adventures in the Forgotten Realms Commander,English
-1,Warlock Class,,125,Adventures in the Forgotten Realms,English
-1,Chaos Channeler,,136,Adventures in the Forgotten Realms,English
-1,You Find Some Prisoners,,169,Adventures in the Forgotten Realms,English
-4,Swamp,,270,Adventures in the Forgotten Realms,English
-4,Swamp,,271,Adventures in the Forgotten Realms,English
-3,Swamp,,272,Adventures in the Forgotten Realms,English
-3,Swamp,,273,Adventures in the Forgotten Realms,English
-4,Mountain,,274,Adventures in the Forgotten Realms,English
-3,Mountain,,275,Adventures in the Forgotten Realms,English
-3,Mountain,,276,Adventures in the Forgotten Realms,English
-3,Mountain,,277,Adventures in the Forgotten Realms,English
-4,Rat // Zombie,,8,Extras: Adventures in the Forgotten Realms Commander,English
-1,Servo // Zombie,,9,Extras: Adventures in the Forgotten Realms Commander,English
-2,Servo // Treasure,,10,Extras: Adventures in the Forgotten Realms Commander,English
-3,Thopter // Treasure,,11,Extras: Adventures in the Forgotten Realms Commander,English
+Count,Name,Foil,Card Number,Edition
+1,"Prosper, Tome-Bound",foil,2,Forgotten Realms Display Commanders
+1,"Prosper, Tome-Bound",foil,2,Adventures in the Forgotten Realms Commander
+1,"Karazikar, the Eye Tyrant",foil,49,Adventures in the Forgotten Realms Commander
+1,Bag of Devouring,,21,Adventures in the Forgotten Realms Commander
+1,Danse Macabre,,22,Adventures in the Forgotten Realms Commander
+1,Death Tyrant,,23,Adventures in the Forgotten Realms Commander
+1,Grim Hireling,,25,Adventures in the Forgotten Realms Commander
+1,Hellish Rebuke,,26,Adventures in the Forgotten Realms Commander
+1,"Lorcan, Warlock Collector",,27,Adventures in the Forgotten Realms Commander
+1,Fiendlash,,31,Adventures in the Forgotten Realms Commander
+1,Reckless Endeavor,,33,Adventures in the Forgotten Realms Commander
+1,Share the Spoils,,34,Adventures in the Forgotten Realms Commander
+1,Wild-Magic Sorcerer,,36,Adventures in the Forgotten Realms Commander
+1,Fevered Suspicion,,47,Adventures in the Forgotten Realms Commander
+1,Hurl Through Hell,,48,Adventures in the Forgotten Realms Commander
+1,Bucknard's Everfull Purse,,57,Adventures in the Forgotten Realms Commander
+1,Ebony Fly,,60,Adventures in the Forgotten Realms Commander
+1,Underdark Rift,,62,Adventures in the Forgotten Realms Commander
+1,Chittering Witch,,95,Adventures in the Forgotten Realms Commander
+1,Consuming Vapors,,96,Adventures in the Forgotten Realms Commander
+1,Dead Man's Chest,,97,Adventures in the Forgotten Realms Commander
+1,Fiend of the Shadows,,99,Adventures in the Forgotten Realms Commander
+1,"Gonti, Lord of Luxury",,100,Adventures in the Forgotten Realms Commander
+1,Hex,,101,Adventures in the Forgotten Realms Commander
+1,Marionette Master,,102,Adventures in the Forgotten Realms Commander
+1,Ogre Slumlord,,104,Adventures in the Forgotten Realms Commander
+1,Phthisis,,105,Adventures in the Forgotten Realms Commander
+1,Piper of the Swarm,,106,Adventures in the Forgotten Realms Commander
+1,Pontiff of Blight,,108,Adventures in the Forgotten Realms Commander
+1,Apex of Power,,114,Adventures in the Forgotten Realms Commander
+1,Chaos Warp,,117,Adventures in the Forgotten Realms Commander
+1,Commune with Lava,,118,Adventures in the Forgotten Realms Commander
+1,Dark-Dweller Oracle,,119,Adventures in the Forgotten Realms Commander
+1,Dire Fleet Daredevil,,121,Adventures in the Forgotten Realms Commander
+1,Disrupt Decorum,,122,Adventures in the Forgotten Realms Commander
+1,Dream Pillager,,125,Adventures in the Forgotten Realms Commander
+1,"Etali, Primal Storm",,126,Adventures in the Forgotten Realms Commander
+1,Ignite the Future,,129,Adventures in the Forgotten Realms Commander
+1,Izzet Chemister,,130,Adventures in the Forgotten Realms Commander
+1,Light Up the Stage,,131,Adventures in the Forgotten Realms Commander
+1,Loyal Apprentice,,132,Adventures in the Forgotten Realms Commander
+1,Shiny Impetus,,138,Adventures in the Forgotten Realms Commander
+1,Tectonic Giant,,144,Adventures in the Forgotten Realms Commander
+1,Throes of Chaos,,146,Adventures in the Forgotten Realms Commander
+1,Vandalblast,,148,Adventures in the Forgotten Realms Commander
+1,Bedevil,,179,Adventures in the Forgotten Realms Commander
+1,Bituminous Blast,,181,Adventures in the Forgotten Realms Commander
+1,Rakdos Charm,,190,Adventures in the Forgotten Realms Commander
+1,Terminate,,193,Adventures in the Forgotten Realms Commander
+1,Theater of Horrors,,194,Adventures in the Forgotten Realms Commander
+1,Arcane Signet,,197,Adventures in the Forgotten Realms Commander
+1,Chaos Wand,,201,Adventures in the Forgotten Realms Commander
+1,Commander's Sphere,,203,Adventures in the Forgotten Realms Commander
+1,Fellwar Stone,,206,Adventures in the Forgotten Realms Commander
+1,Mind Stone,,211,Adventures in the Forgotten Realms Commander
+1,Orazca Relic,,213,Adventures in the Forgotten Realms Commander
+1,Rakdos Signet,,214,Adventures in the Forgotten Realms Commander
+1,Sol Ring,,215,Adventures in the Forgotten Realms Commander
+1,Talisman of Indulgence,,219,Adventures in the Forgotten Realms Commander
+1,Unstable Obelisk,,220,Adventures in the Forgotten Realms Commander
+1,Bojuka Bog,,226,Adventures in the Forgotten Realms Commander
+1,Command Tower,,230,Adventures in the Forgotten Realms Commander
+1,Exotic Orchard,,236,Adventures in the Forgotten Realms Commander
+1,Foreboding Ruins,,238,Adventures in the Forgotten Realms Commander
+1,Mortuary Mire,,249,Adventures in the Forgotten Realms Commander
+1,Rakdos Carnarium,,257,Adventures in the Forgotten Realms Commander
+1,Shadowblood Ridge,,259,Adventures in the Forgotten Realms Commander
+1,Smoldering Marsh,,262,Adventures in the Forgotten Realms Commander
+1,Spinerock Knoll,,263,Adventures in the Forgotten Realms Commander
+1,Tainted Peak,,266,Adventures in the Forgotten Realms Commander
+1,Zhalfirin Void,,273,Adventures in the Forgotten Realms Commander
+1,Warlock Class,,125,Adventures in the Forgotten Realms
+1,Chaos Channeler,,136,Adventures in the Forgotten Realms
+1,You Find Some Prisoners,,169,Adventures in the Forgotten Realms
+4,Swamp,,270,Adventures in the Forgotten Realms
+4,Swamp,,271,Adventures in the Forgotten Realms
+3,Swamp,,272,Adventures in the Forgotten Realms
+3,Swamp,,273,Adventures in the Forgotten Realms
+4,Mountain,,274,Adventures in the Forgotten Realms
+3,Mountain,,275,Adventures in the Forgotten Realms
+3,Mountain,,276,Adventures in the Forgotten Realms
+3,Mountain,,277,Adventures in the Forgotten Realms
+4,Rat // Zombie,,8,Extras: Adventures in the Forgotten Realms Commander
+1,Servo // Zombie,,9,Extras: Adventures in the Forgotten Realms Commander
+2,Servo // Treasure,,10,Extras: Adventures in the Forgotten Realms Commander
+3,Thopter // Treasure,,11,Extras: Adventures in the Forgotten Realms Commander

@@ -1,19 +1,19 @@
-﻿Count,Name,Card Number,Edition,Language
-1,Reanimated,31,Jumpstart Front Cards,English
-1,Thriving Moor,37,Jumpstart,English
-1,Swamp,56,Jumpstart,English
-1,Crow of Dark Tidings,221,Jumpstart,English
-1,Funeral Rites,235,Jumpstart,English
-1,Macabre Waltz,252,Jumpstart,English
-1,Miasmic Mummy,256,Jumpstart,English
-1,Mire Triton,257,Jumpstart,English
-1,Reanimate,270,Jumpstart,English
-1,Carrion Grub,92,Core Set 2021,English
-1,Crypt Lurker,93,Core Set 2021,English
-1,Eliminate,97,Core Set 2021,English
-1,Gloom Sower,100,Core Set 2021,English
-1,Goremand,101,Core Set 2021,English
-1,Rise Again,119,Core Set 2021,English
-2,Swamp,266,Core Set 2021,English
-2,Swamp,267,Core Set 2021,English
-2,Swamp,268,Core Set 2021,English
+﻿Count,Name,Foil,Card Number,Edition
+1,Reanimated,,31,Jumpstart Front Cards
+1,Thriving Moor,,37,Jumpstart
+1,Crow of Dark Tidings,,221,Jumpstart
+1,Funeral Rites,,235,Jumpstart
+1,Macabre Waltz,,252,Jumpstart
+1,Miasmic Mummy,,256,Jumpstart
+1,Mire Triton,,257,Jumpstart
+1,Reanimate,,270,Jumpstart
+1,Carrion Grub,,92,Core Set 2021
+1,Crypt Lurker,,93,Core Set 2021
+1,Eliminate,,97,Core Set 2021
+1,Gloom Sower,,100,Core Set 2021
+1,Goremand,,101,Core Set 2021
+1,Rise Again,,119,Core Set 2021
+2,Swamp,,266,Core Set 2021
+2,Swamp,,267,Core Set 2021
+2,Swamp,,268,Core Set 2021
+1,Swamp,,56,Jumpstart

@@ -59,17 +59,21 @@ $( function() {
         ],
 
         // Commander
-        'annual-commander': [
-            {sort:'color',order:'desc'}
-           ,{type:'set',sort:'release',order:'asc'}
-        ],
         'set-commander': [
+            {sort:'color',order:'desc'}
+           ,{type:'set',flat:true,sort:'release',order:'asc'}
+        ],
+        'ub-commander': [
             {sort:'color',order:'desc'}
            ,{type:'set',flat:true,sort:'release',order:'asc'}
         ],
         'commander-anthology': [
             {sort:'color',order:'desc'}
            ,{type:'set',flat:true,sort:'release',order:'asc'}
+        ],
+        'annual-commander': [
+            {sort:'color',order:'desc'}
+           ,{type:'set',sort:'release',order:'asc'}
         ],
 
         // Other Series

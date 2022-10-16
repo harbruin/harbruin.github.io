@@ -1,86 +1,87 @@
-﻿Count,Name,Foil,Card Number,Edition,Language
-1,"Willowdusk, Essence Seer",foil,6,Commander 2021,English
-1,"Gyome, Master Chef",foil,5,Commander 2021,English
-1,Blight Mound,,36,Commander 2021,English
-1,Essence Pulse,,39,Commander 2021,English
-1,Marshland Bloodcaster,,43,Commander 2021,English
-1,"Tivash, Gloom Summoner",,45,Commander 2021,English
-1,Veinwitch Coven,,46,Commander 2021,English
-1,Blossoming Bogbeast,,59,Commander 2021,English
-1,Ezzaroot Channeler,,60,Commander 2021,English
-1,Healing Technique,,63,Commander 2021,English
-1,Pest Infestation,,65,Commander 2021,English
-1,Sproutback Trudge,,68,Commander 2021,English
-1,Trudge Garden,,69,Commander 2021,English
-1,"Yedora, Grave Gardener",,70,Commander 2021,English
-1,Revival Experiment,,74,Commander 2021,English
-1,Study Hall,,80,Commander 2021,English
-1,Witch's Clinic,,81,Commander 2021,English
-1,Ancient Craving,,135,Commander 2021,English
-1,Bloodthirsty Aerialist,,136,Commander 2021,English
-1,Bloodtracker,,137,Commander 2021,English
-1,Damnable Pact,,139,Commander 2021,English
-1,Deadly Tempest,,140,Commander 2021,English
-1,Defiant Bloodlord,,142,Commander 2021,English
-1,Epicure of Blood,,143,Commander 2021,English
-1,Feed the Swarm,,144,Commander 2021,English
-1,Greed,,145,Commander 2021,English
-1,Noxious Gearhulk,,148,Commander 2021,English
-1,Ob Nixilis Reignited,,149,Commander 2021,English
-1,Reckless Spite,,151,Commander 2021,English
-1,Sangromancer,,152,Commander 2021,English
-1,Sanguine Bond,,153,Commander 2021,English
-1,Silversmote Ghoul,,154,Commander 2021,English
-1,Suffer the Past,,155,Commander 2021,English
-1,Taste of Death,,156,Commander 2021,English
-1,Vampire Nighthawk,,157,Commander 2021,English
-1,Ageless Entity,,184,Commander 2021,English
-1,Cultivate,,187,Commander 2021,English
-1,Gift of Paradise,,191,Commander 2021,English
-1,Nissa's Renewal,,201,Commander 2021,English
-1,Pulse of Murasa,,202,Commander 2021,English
-1,Rampant Growth,,204,Commander 2021,English
-1,Verdant Sun's Avatar,,208,Commander 2021,English
-1,Gaze of Granite,,217,Commander 2021,English
-1,Gluttonous Troll,,218,Commander 2021,English
-1,Leyline Prowler,,222,Commander 2021,English
-1,Moldervine Reclamation,,225,Commander 2021,English
-1,Sapling of Colfenor,,228,Commander 2021,English
-1,Alhammarret's Archive,,233,Commander 2021,English
-1,Arcane Signet,,234,Commander 2021,English
-1,Druidic Satchel,,241,Commander 2021,English
-1,Elixir of Immortality,,243,Commander 2021,English
-1,Loxodon Warhammer,,249,Commander 2021,English
-1,Paradise Plume,,255,Commander 2021,English
-1,Pristine Talisman,,258,Commander 2021,English
-1,Sol Ring,,263,Commander 2021,English
-1,Sun Droplet,,268,Commander 2021,English
-1,Talisman of Resilience,,270,Commander 2021,English
-1,Venser's Journal,,273,Commander 2021,English
-1,Well of Lost Dreams,,275,Commander 2021,English
-1,Blighted Woodland,,280,Commander 2021,English
-1,Command Tower,,284,Commander 2021,English
-1,Exotic Orchard,,288,Commander 2021,English
-1,Gingerbread Cabin,,290,Commander 2021,English
-1,Golgari Rot Farm,,291,Commander 2021,English
-1,High Market,,293,Commander 2021,English
-1,Jungle Hollow,,295,Commander 2021,English
-1,Llanowar Wastes,,297,Commander 2021,English
-1,Myriad Landscape,,304,Commander 2021,English
-1,Radiant Fountain,,310,Commander 2021,English
-1,Rogue's Passage,,312,Commander 2021,English
-1,Sapseep Forest,,313,Commander 2021,English
-1,Tainted Wood,,321,Commander 2021,English
-1,Temple of Malady,,323,Commander 2021,English
-1,Temple of the False God,,326,Commander 2021,English
-1,Honor Troll,,134,Strixhaven: School of Mages,English
-1,"Dina, Soul Steeper",,178,Strixhaven: School of Mages,English
-1,Mortality Spear,,207,Strixhaven: School of Mages,English
-1,Witherbloom Campus,,275,Strixhaven: School of Mages,English
-6,Swamp,,370,Strixhaven: School of Mages,English
-5,Swamp,,371,Strixhaven: School of Mages,English
-6,Forest,,374,Strixhaven: School of Mages,English
-5,Forest,,375,Strixhaven: School of Mages,English
-5,Pest // Food,,7,Extras: Commander 2021,English
-2,Saproling // Food,,8,Extras: Commander 2021,English
-3,Demon // Fungus Beast,,9,Extras: Commander 2021,English
+﻿Count,Name,Foil,Card Number,Edition
+1,"Willowdusk, Essence Seer",foil,6,Commander 2021 Display Commanders
+1,"Willowdusk, Essence Seer",foil,6,Commander 2021
+1,"Gyome, Master Chef",foil,5,Commander 2021
+1,Blight Mound,,36,Commander 2021
+1,Essence Pulse,,39,Commander 2021
+1,Marshland Bloodcaster,,43,Commander 2021
+1,"Tivash, Gloom Summoner",,45,Commander 2021
+1,Veinwitch Coven,,46,Commander 2021
+1,Blossoming Bogbeast,,59,Commander 2021
+1,Ezzaroot Channeler,,60,Commander 2021
+1,Healing Technique,,63,Commander 2021
+1,Pest Infestation,,65,Commander 2021
+1,Sproutback Trudge,,68,Commander 2021
+1,Trudge Garden,,69,Commander 2021
+1,"Yedora, Grave Gardener",,70,Commander 2021
+1,Revival Experiment,,74,Commander 2021
+1,Study Hall,,80,Commander 2021
+1,Witch's Clinic,,81,Commander 2021
+1,Ancient Craving,,135,Commander 2021
+1,Bloodthirsty Aerialist,,136,Commander 2021
+1,Bloodtracker,,137,Commander 2021
+1,Damnable Pact,,139,Commander 2021
+1,Deadly Tempest,,140,Commander 2021
+1,Defiant Bloodlord,,142,Commander 2021
+1,Epicure of Blood,,143,Commander 2021
+1,Feed the Swarm,,144,Commander 2021
+1,Greed,,145,Commander 2021
+1,Noxious Gearhulk,,148,Commander 2021
+1,Ob Nixilis Reignited,,149,Commander 2021
+1,Reckless Spite,,151,Commander 2021
+1,Sangromancer,,152,Commander 2021
+1,Sanguine Bond,,153,Commander 2021
+1,Silversmote Ghoul,,154,Commander 2021
+1,Suffer the Past,,155,Commander 2021
+1,Taste of Death,,156,Commander 2021
+1,Vampire Nighthawk,,157,Commander 2021
+1,Ageless Entity,,184,Commander 2021
+1,Cultivate,,187,Commander 2021
+1,Gift of Paradise,,191,Commander 2021
+1,Nissa's Renewal,,201,Commander 2021
+1,Pulse of Murasa,,202,Commander 2021
+1,Rampant Growth,,204,Commander 2021
+1,Verdant Sun's Avatar,,208,Commander 2021
+1,Gaze of Granite,,217,Commander 2021
+1,Gluttonous Troll,,218,Commander 2021
+1,Leyline Prowler,,222,Commander 2021
+1,Moldervine Reclamation,,225,Commander 2021
+1,Sapling of Colfenor,,228,Commander 2021
+1,Alhammarret's Archive,,233,Commander 2021
+1,Arcane Signet,,234,Commander 2021
+1,Druidic Satchel,,241,Commander 2021
+1,Elixir of Immortality,,243,Commander 2021
+1,Loxodon Warhammer,,249,Commander 2021
+1,Paradise Plume,,255,Commander 2021
+1,Pristine Talisman,,258,Commander 2021
+1,Sol Ring,,263,Commander 2021
+1,Sun Droplet,,268,Commander 2021
+1,Talisman of Resilience,,270,Commander 2021
+1,Venser's Journal,,273,Commander 2021
+1,Well of Lost Dreams,,275,Commander 2021
+1,Blighted Woodland,,280,Commander 2021
+1,Command Tower,,284,Commander 2021
+1,Exotic Orchard,,288,Commander 2021
+1,Gingerbread Cabin,,290,Commander 2021
+1,Golgari Rot Farm,,291,Commander 2021
+1,High Market,,293,Commander 2021
+1,Jungle Hollow,,295,Commander 2021
+1,Llanowar Wastes,,297,Commander 2021
+1,Myriad Landscape,,304,Commander 2021
+1,Radiant Fountain,,310,Commander 2021
+1,Rogue's Passage,,312,Commander 2021
+1,Sapseep Forest,,313,Commander 2021
+1,Tainted Wood,,321,Commander 2021
+1,Temple of Malady,,323,Commander 2021
+1,Temple of the False God,,326,Commander 2021
+1,Honor Troll,,134,Strixhaven: School of Mages
+1,"Dina, Soul Steeper",,178,Strixhaven: School of Mages
+1,Mortality Spear,,207,Strixhaven: School of Mages
+1,Witherbloom Campus,,275,Strixhaven: School of Mages
+6,Swamp,,370,Strixhaven: School of Mages
+5,Swamp,,371,Strixhaven: School of Mages
+6,Forest,,374,Strixhaven: School of Mages
+5,Forest,,375,Strixhaven: School of Mages
+5,Pest // Food,,7,Extras: Commander 2021
+2,Saproling // Food,,8,Extras: Commander 2021
+3,Demon // Fungus Beast,,9,Extras: Commander 2021

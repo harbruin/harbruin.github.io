@@ -90,7 +90,7 @@ id,name,set,release,series,format,color,info,note,unverified,missing,labeled,css
 89,Pressure Cooker,ODY,10/1/2001,theme,casual,BR,,,,,,
 90,Trounce-O-Matic,ODY,10/1/2001,theme,casual,GU,,,,,,
 91,Grave Danger,TOR,2/8/2002,theme,casual,UB,,,,,,
-92,Insanity,TOR,2/8/2002,theme,casual,BG,,,,,,
+92,Insanity,TOR,2/8/2002,theme,casual,BG,,,TRUE,,,
 93,Sacrilege,TOR,2/8/2002,theme,casual,WB,,,,,,
 94,Waking Nightmares,TOR,2/8/2002,theme,casual,BR,,,,,,
 95,Air Razers,JUD,5/27/2002,theme,casual,UR,,,,TRUE,,
@@ -825,18 +825,32 @@ id,name,set,release,series,format,color,info,note,unverified,missing,labeled,css
 824,Legends' Legacy,DMC,9/9/2022,set-commander,commander,RWB,,,,,,
 825,Painbow,DMC,9/9/2022,set-commander,commander,WUBRG,,,,,,
 826,Welcome Booster,DMU,9/9/2022,welcome,casual,,WB,,,,TRUE,
-837,Necron Dynasties,40K,10/7/2022,set-commander,commander,B,,,TRUE,TRUE,,
-838,Forces of the Imperium,40K,10/7/2022,set-commander,commander,WUB,,,TRUE,TRUE,,
-839,The Ruinous Powers,40K,10/7/2022,set-commander,commander,UBR,,,TRUE,TRUE,,
-840,Tyranid Swarm,40K,10/7/2022,set-commander,commander,GUR,,,TRUE,TRUE,,
-841,Glorious Combat,GN3,10/14/2022,game-night,casual,W,,,TRUE,TRUE,,
-842,Political Trickery,GN3,10/14/2022,game-night,casual,U,,,TRUE,TRUE,,
-843,Dark Sacrifice,GN3,10/14/2022,game-night,casual,B,,,TRUE,TRUE,,
-844,Draconic Fury,GN3,10/14/2022,game-night,casual,R,,,TRUE,TRUE,,
-845,Boundless Elves,GN3,10/14/2022,game-night,casual,G,,,TRUE,TRUE,,
-846,Pioneer Dimir Control,Q08,11/4/2022,challenger,pioneer,UB,,,TRUE,TRUE,,
-847,Pioneer Gruul Stompy,Q08,11/4/2022,challenger,pioneer,RG,,,TRUE,TRUE,,
-848,Orzhov Humans,Q08,11/4/2022,challenger,pioneer,WB,,,TRUE,TRUE,,
-849,Izzet Phoenix,Q08,11/4/2022,challenger,pioneer,UR,,,TRUE,TRUE,,
-850,Urza's Iron Alliance,BRC,11/18/2022,set-commander,commander,WUB,,,TRUE,TRUE,,
-851,Mishra's Burnished Banner,BRC,11/18/2022,set-commander,commander,UBR,,,TRUE,TRUE,,
+827,Coalition Corps,DMU,9/9/2022,jumpstart,draft,W,,,TRUE,TRUE,,hide
+828,Coalition Legions,DMU,9/9/2022,jumpstart,draft,W,,,TRUE,TRUE,,hide
+829,Mystic Mischief,DMU,9/9/2022,jumpstart,draft,U,,,TRUE,TRUE,,hide
+830,Arcane Mischief,DMU,9/9/2022,jumpstart,draft,U,,,TRUE,TRUE,,hide
+831,Totally Ruthless,DMU,9/9/2022,jumpstart,draft,B,,,TRUE,TRUE,,hide
+832,Totally Merciless,DMU,9/9/2022,jumpstart,draft,B,,,TRUE,TRUE,,hide
+833,Ready to Charge,DMU,9/9/2022,jumpstart,draft,R,,,TRUE,TRUE,,hide
+834,Ready to Attack,DMU,9/9/2022,jumpstart,draft,R,,,TRUE,TRUE,,hide
+835,Beast Territory,DMU,9/9/2022,jumpstart,draft,G,,,TRUE,TRUE,,hide
+836,Monster Territory,DMU,9/9/2022,jumpstart,draft,G,,,TRUE,TRUE,,hide
+837,Necron Dynasties,40K,10/7/2022,ub-commander,commander,B,,,,,,
+838,Forces of the Imperium,40K,10/7/2022,ub-commander,commander,WUB,,,,,,
+839,The Ruinous Powers,40K,10/7/2022,ub-commander,commander,UBR,,,,,,
+840,Tyranid Swarm,40K,10/7/2022,ub-commander,commander,GUR,,,,,,
+841,Necron Dynasties - Collector,40K,10/7/2022,ub-commander,commander,B,,,,,,
+842,Forces of the Imperium - Collector,40K,10/7/2022,ub-commander,commander,WUB,,,,,,
+843,The Ruinous Powers - Collector,40K,10/7/2022,ub-commander,commander,UBR,,,,,,
+844,Tyranid Swarm - Collector,40K,10/7/2022,ub-commander,commander,GUR,,,,,,
+845,Glorious Combat,GN3,10/14/2022,game-night,casual,W,,,,,,
+846,Political Trickery,GN3,10/14/2022,game-night,casual,U,,,,,,
+847,Dark Sacrifice,GN3,10/14/2022,game-night,casual,B,,,,,,
+848,Draconic Fury,GN3,10/14/2022,game-night,casual,R,,,,,,
+849,Boundless Elves,GN3,10/14/2022,game-night,casual,G,,,,,,
+850,Pioneer Dimir Control,Q08,11/4/2022,challenger,pioneer,UB,,,TRUE,TRUE,,
+851,Pioneer Gruul Stompy,Q08,11/4/2022,challenger,pioneer,RG,,,TRUE,TRUE,,
+852,Orzhov Humans,Q08,11/4/2022,challenger,pioneer,WB,,,TRUE,TRUE,,
+853,Izzet Phoenix,Q08,11/4/2022,challenger,pioneer,UR,,,TRUE,TRUE,,
+854,Urza's Iron Alliance,BRC,11/18/2022,set-commander,commander,WUB,,,TRUE,TRUE,,
+855,Mishra's Burnished Banner,BRC,11/18/2022,set-commander,commander,UBR,,,TRUE,TRUE,,

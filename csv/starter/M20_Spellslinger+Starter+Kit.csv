@@ -1,12 +1,8 @@
 ﻿Count,Name,Foil,Card Number,Edition
+1,"Sephara, Sky's Blade",foil,36,Core Set 2020
 2,Dawning Angel,,11,Core Set 2020
 1,Inspired Charge,,24,Core Set 2020
 1,Loxodon Lifechanter,,27,Core Set 2020
-1,"Sephara, Sky's Blade",foil,36,Core Set 2020
-8,Plains,,261,Core Set 2020
-6,Plains,,262,Core Set 2020
-6,Plains,,263,Core Set 2020
-6,Plains,,264,Core Set 2020
 1,Angelic Guardian,,302,Core Set 2020
 3,Bastion Enforcer,,303,Core Set 2020
 2,Concordia Pegasus,,304,Core Set 2020
@@ -22,10 +18,14 @@
 2,Inspiring Unicorn,,16,Guilds of Ravnica
 1,Intrusive Packbeast,,17,Guilds of Ravnica
 2,Righteous Blow,,23,Guilds of Ravnica
-,,,,
+8,Plains,,261,Core Set 2020
+6,Plains,,262,Core Set 2020
+6,Plains,,263,Core Set 2020
+6,Plains,,264,Core Set 2020
+
+1,"Drakuseth, Maw of Flames",foil,136,Core Set 2020
 1,Act of Treason,,124,Core Set 2020
 2,Daggersail Aeronaut,,133,Core Set 2020
-1,"Drakuseth, Maw of Flames",foil,136,Core Set 2020
 1,Fire Elemental,,138,Core Set 2020
 1,Glint-Horn Buccaneer,,141,Core Set 2020
 2,Goblin Smuggler,,144,Core Set 2020
@@ -33,10 +33,6 @@
 1,Leyline of Combustion,,148,Core Set 2020
 2,Shock,,160,Core Set 2020
 1,Tectonic Rift,,161,Core Set 2020
-7,Mountain,,273,Core Set 2020
-7,Mountain,,274,Core Set 2020
-6,Mountain,,275,Core Set 2020
-6,Mountain,,276,Core Set 2020
 3,Engulfing Eruption,,328,Core Set 2020
 3,Fearless Halberdier,,329,Core Set 2020
 4,Goblin Assailant,,330,Core Set 2020
@@ -46,3 +42,7 @@
 1,Shivan Dragon,,335,Core Set 2020
 2,Hellkite Whelp,,106,Guilds of Ravnica
 2,Sure Strike,,118,Guilds of Ravnica
+7,Mountain,,273,Core Set 2020
+7,Mountain,,274,Core Set 2020
+6,Mountain,,275,Core Set 2020
+6,Mountain,,276,Core Set 2020

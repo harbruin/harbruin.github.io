@@ -1,19 +1,19 @@
-﻿Count,Name,Card Number,Edition,Language
-1,Elves,13,Jumpstart Front Cards,English
-1,Thriving Grove,34,Jumpstart,English
-1,Forest,77,Jumpstart,English
-1,Craterhoof Behemoth,385,Jumpstart,English
-1,Crushing Canopy,386,Jumpstart,English
-1,Dwynen's Elite,389,Jumpstart,English
-1,Elvish Archdruid,391,Jumpstart,English
-1,Ghirapur Guide,400,Jumpstart,English
-1,Presence of Gond,420,Jumpstart,English
-1,Silhana Wayfinder,430,Jumpstart,English
-1,Wildheart Invoker,444,Jumpstart,English
-1,Hunter's Edge,189,Core Set 2021,English
-1,Llanowar Visionary,193,Core Set 2021,English
-1,Skyway Sniper,206,Core Set 2021,English
-1,Titanic Growth,210,Core Set 2021,English
-2,Forest,272,Core Set 2021,English
-2,Forest,273,Core Set 2021,English
-2,Forest,274,Core Set 2021,English
+﻿Count,Name,Foil,Card Number,Edition
+1,Elves,,13,Jumpstart Front Cards
+1,Thriving Grove,,34,Jumpstart
+1,Craterhoof Behemoth,,385,Jumpstart
+1,Crushing Canopy,,386,Jumpstart
+1,Dwynen's Elite,,389,Jumpstart
+1,Elvish Archdruid,,391,Jumpstart
+1,Ghirapur Guide,,400,Jumpstart
+1,Presence of Gond,,420,Jumpstart
+1,Silhana Wayfinder,,430,Jumpstart
+1,Wildheart Invoker,,444,Jumpstart
+1,Hunter's Edge,,189,Core Set 2021
+1,Llanowar Visionary,,193,Core Set 2021
+1,Skyway Sniper,,206,Core Set 2021
+1,Titanic Growth,,210,Core Set 2021
+2,Forest,,272,Core Set 2021
+2,Forest,,273,Core Set 2021
+2,Forest,,274,Core Set 2021
+1,Forest,,77,Jumpstart

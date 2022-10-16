@@ -1,19 +1,19 @@
-﻿Count,Name,Card Number,Edition,Language
-1,Milling,23,Jumpstart Front Cards,English
-1,Bruvac the Grandiloquent,10,Jumpstart,English
-1,Thriving Isle,36,Jumpstart,English
-1,Island,50,Jumpstart,English
-1,Belltower Sphinx,141,Jumpstart,English
-1,Reckless Scholar,168,Jumpstart,English
-1,Selhoff Occultist,174,Jumpstart,English
-1,Sweep Away,180,Jumpstart,English
-1,Thought Collapse,184,Jumpstart,English
-1,Thought Scour,185,Jumpstart,English
-1,Towering-Wave Mystic,186,Jumpstart,English
-1,Vedalken Entrancer,188,Jumpstart,English
-1,Wall of Lost Thoughts,190,Jumpstart,English
-1,Capture Sphere,47,Core Set 2021,English
-1,Teferi's Tutelage,78,Core Set 2021,English
-2,Island,263,Core Set 2021,English
-2,Island,264,Core Set 2021,English
-2,Island,265,Core Set 2021,English
+﻿Count,Name,Foil,Card Number,Edition
+1,Milling,,23,Jumpstart Front Cards
+1,Bruvac the Grandiloquent,,10,Jumpstart
+1,Thriving Isle,,36,Jumpstart
+1,Belltower Sphinx,,141,Jumpstart
+1,Reckless Scholar,,168,Jumpstart
+1,Selhoff Occultist,,174,Jumpstart
+1,Sweep Away,,180,Jumpstart
+1,Thought Collapse,,184,Jumpstart
+1,Thought Scour,,185,Jumpstart
+1,Towering-Wave Mystic,,186,Jumpstart
+1,Vedalken Entrancer,,188,Jumpstart
+1,Wall of Lost Thoughts,,190,Jumpstart
+1,Capture Sphere,,47,Core Set 2021
+1,Teferi's Tutelage,,78,Core Set 2021
+2,Island,,263,Core Set 2021
+2,Island,,264,Core Set 2021
+2,Island,,265,Core Set 2021
+1,Island,,50,Jumpstart

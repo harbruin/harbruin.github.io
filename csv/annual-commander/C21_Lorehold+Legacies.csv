@@ -1,90 +1,91 @@
-﻿Count,Name,Foil,Card Number,Edition,Language
-1,"Osgir, the Reconstructor",foil,8,Commander 2021,English
-1,"Alibou, Ancient Witness",foil,7,Commander 2021,English
-1,Angel of the Ruins,,11,Commander 2021,English
-1,Archaeomancer's Map,,12,Commander 2021,English
-1,Bronze Guardian,,13,Commander 2021,English
-1,Digsite Engineer,,15,Commander 2021,English
-1,Excavation Technique,,16,Commander 2021,English
-1,"Losheel, Clockwork Scholar",,18,Commander 2021,English
-1,Monologue Tax,,19,Commander 2021,English
-1,Audacious Reshapers,,47,Commander 2021,English
-1,Battlemage's Bracers,,48,Commander 2021,English
-1,Cursed Mirror,,50,Commander 2021,English
-1,"Laelia, the Blade Reforged",,53,Commander 2021,English
-1,Ruin Grinder,,57,Commander 2021,English
-1,Wake the Past,,75,Commander 2021,English
-1,Triplicate Titan,,79,Commander 2021,English
-1,Study Hall,,80,Commander 2021,English
-1,Cleansing Nova,,86,Commander 2021,English
-1,Darksteel Mutation,,87,Commander 2021,English
-1,Dispatch,,88,Commander 2021,English
-1,Dispeller's Capsule,,89,Commander 2021,English
-1,Return to Dust,,100,Commander 2021,English
-1,Rout,,101,Commander 2021,English
-1,Sanctum Gargoyle,,102,Commander 2021,English
-1,Sun Titan,,106,Commander 2021,English
-1,Chain Reaction,,161,Commander 2021,English
-1,Combustible Gearhulk,,163,Commander 2021,English
-1,"Daretti, Scrap Savant",,164,Commander 2021,English
-1,Faithless Looting,,168,Commander 2021,English
-1,Feldon of the Third Path,,169,Commander 2021,English
-1,Hellkite Igniter,,171,Commander 2021,English
-1,Hellkite Tyrant,,172,Commander 2021,English
-1,Hoard-Smelter Dragon,,173,Commander 2021,English
-1,Pia Nalaar,,177,Commander 2021,English
-1,Quicksmith Genius,,178,Commander 2021,English
-1,Thopter Engineer,,181,Commander 2021,English
-1,Boros Charm,,210,Commander 2021,English
-1,"Jor Kadeen, the Prevailer",,220,Commander 2021,English
-1,Arcane Signet,,234,Commander 2021,English
-1,Boros Locket,,236,Commander 2021,English
-1,"Bosh, Iron Golem",,237,Commander 2021,English
-1,Burnished Hart,,238,Commander 2021,English
-1,Commander's Sphere,,239,Commander 2021,English
-1,Duplicant,,242,Commander 2021,English
-1,Hedron Archive,,244,Commander 2021,English
-1,Ichor Wellspring,,245,Commander 2021,English
-1,Key to the City,,248,Commander 2021,English
-1,Meteor Golem,,250,Commander 2021,English
-1,Mind Stone,,251,Commander 2021,English
-1,Mycosynth Wellspring,,252,Commander 2021,English
-1,Myr Battlesphere,,253,Commander 2021,English
-1,Pilgrim's Eye,,257,Commander 2021,English
-1,Scrap Trawler,,260,Commander 2021,English
-1,Sculpting Steel,,261,Commander 2021,English
-1,Sol Ring,,263,Commander 2021,English
-1,Solemn Simulacrum,,264,Commander 2021,English
-1,Steel Hellkite,,266,Commander 2021,English
-1,Steel Overseer,,267,Commander 2021,English
-1,Thousand-Year Elixir,,271,Commander 2021,English
-1,Unstable Obelisk,,272,Commander 2021,English
-1,Ancient Den,,276,Commander 2021,English
-1,Battlefield Forge,,278,Commander 2021,English
-1,Boros Garrison,,282,Commander 2021,English
-1,Command Tower,,284,Commander 2021,English
-1,Darksteel Citadel,,285,Commander 2021,English
-1,Exotic Orchard,,288,Commander 2021,English
-1,Forgotten Cave,,289,Commander 2021,English
-1,Great Furnace,,292,Commander 2021,English
-1,Myriad Landscape,,304,Commander 2021,English
-1,Phyrexia's Core,,309,Commander 2021,English
-1,Rogue's Passage,,312,Commander 2021,English
-1,Secluded Steppe,,315,Commander 2021,English
-1,Slayers' Stronghold,,318,Commander 2021,English
-1,"Sunhome, Fortress of the Legion",,319,Commander 2021,English
-1,Temple of the False God,,326,Commander 2021,English
-1,Temple of Triumph,,327,Commander 2021,English
-1,Secret Rendezvous,,26,Strixhaven: School of Mages,English
-1,Reconstruct History,,222,Strixhaven: School of Mages,English
-1,Rip Apart,,225,Strixhaven: School of Mages,English
-1,Lorehold Campus,,268,Strixhaven: School of Mages,English
-4,Plains,,366,Strixhaven: School of Mages,English
-4,Plains,,367,Strixhaven: School of Mages,English
-6,Mountain,,372,Strixhaven: School of Mages,English
-6,Mountain,,373,Strixhaven: School of Mages,English
-4,Myr // Treasure,,10,Extras: Commander 2021,English
-3,Copy // Construct,,11,Extras: Commander 2021,English
-1,Thopter // Golem,,12,Extras: Commander 2021,English
-1,Thopter // Golem,,13,Extras: Commander 2021,English
-1,Thopter // Golem,,14,Extras: Commander 2021,English
+﻿Count,Name,Foil,Card Number,Edition
+1,"Osgir, the Reconstructor",foil,8,Commander 2021 Display Commanders
+1,"Osgir, the Reconstructor",foil,8,Commander 2021
+1,"Alibou, Ancient Witness",foil,7,Commander 2021
+1,Angel of the Ruins,,11,Commander 2021
+1,Archaeomancer's Map,,12,Commander 2021
+1,Bronze Guardian,,13,Commander 2021
+1,Digsite Engineer,,15,Commander 2021
+1,Excavation Technique,,16,Commander 2021
+1,"Losheel, Clockwork Scholar",,18,Commander 2021
+1,Monologue Tax,,19,Commander 2021
+1,Audacious Reshapers,,47,Commander 2021
+1,Battlemage's Bracers,,48,Commander 2021
+1,Cursed Mirror,,50,Commander 2021
+1,"Laelia, the Blade Reforged",,53,Commander 2021
+1,Ruin Grinder,,57,Commander 2021
+1,Wake the Past,,75,Commander 2021
+1,Triplicate Titan,,79,Commander 2021
+1,Study Hall,,80,Commander 2021
+1,Cleansing Nova,,86,Commander 2021
+1,Darksteel Mutation,,87,Commander 2021
+1,Dispatch,,88,Commander 2021
+1,Dispeller's Capsule,,89,Commander 2021
+1,Return to Dust,,100,Commander 2021
+1,Rout,,101,Commander 2021
+1,Sanctum Gargoyle,,102,Commander 2021
+1,Sun Titan,,106,Commander 2021
+1,Chain Reaction,,161,Commander 2021
+1,Combustible Gearhulk,,163,Commander 2021
+1,"Daretti, Scrap Savant",,164,Commander 2021
+1,Faithless Looting,,168,Commander 2021
+1,Feldon of the Third Path,,169,Commander 2021
+1,Hellkite Igniter,,171,Commander 2021
+1,Hellkite Tyrant,,172,Commander 2021
+1,Hoard-Smelter Dragon,,173,Commander 2021
+1,Pia Nalaar,,177,Commander 2021
+1,Quicksmith Genius,,178,Commander 2021
+1,Thopter Engineer,,181,Commander 2021
+1,Boros Charm,,210,Commander 2021
+1,"Jor Kadeen, the Prevailer",,220,Commander 2021
+1,Arcane Signet,,234,Commander 2021
+1,Boros Locket,,236,Commander 2021
+1,"Bosh, Iron Golem",,237,Commander 2021
+1,Burnished Hart,,238,Commander 2021
+1,Commander's Sphere,,239,Commander 2021
+1,Duplicant,,242,Commander 2021
+1,Hedron Archive,,244,Commander 2021
+1,Ichor Wellspring,,245,Commander 2021
+1,Key to the City,,248,Commander 2021
+1,Meteor Golem,,250,Commander 2021
+1,Mind Stone,,251,Commander 2021
+1,Mycosynth Wellspring,,252,Commander 2021
+1,Myr Battlesphere,,253,Commander 2021
+1,Pilgrim's Eye,,257,Commander 2021
+1,Scrap Trawler,,260,Commander 2021
+1,Sculpting Steel,,261,Commander 2021
+1,Sol Ring,,263,Commander 2021
+1,Solemn Simulacrum,,264,Commander 2021
+1,Steel Hellkite,,266,Commander 2021
+1,Steel Overseer,,267,Commander 2021
+1,Thousand-Year Elixir,,271,Commander 2021
+1,Unstable Obelisk,,272,Commander 2021
+1,Ancient Den,,276,Commander 2021
+1,Battlefield Forge,,278,Commander 2021
+1,Boros Garrison,,282,Commander 2021
+1,Command Tower,,284,Commander 2021
+1,Darksteel Citadel,,285,Commander 2021
+1,Exotic Orchard,,288,Commander 2021
+1,Forgotten Cave,,289,Commander 2021
+1,Great Furnace,,292,Commander 2021
+1,Myriad Landscape,,304,Commander 2021
+1,Phyrexia's Core,,309,Commander 2021
+1,Rogue's Passage,,312,Commander 2021
+1,Secluded Steppe,,315,Commander 2021
+1,Slayers' Stronghold,,318,Commander 2021
+1,"Sunhome, Fortress of the Legion",,319,Commander 2021
+1,Temple of the False God,,326,Commander 2021
+1,Temple of Triumph,,327,Commander 2021
+1,Secret Rendezvous,,26,Strixhaven: School of Mages
+1,Reconstruct History,,222,Strixhaven: School of Mages
+1,Rip Apart,,225,Strixhaven: School of Mages
+1,Lorehold Campus,,268,Strixhaven: School of Mages
+4,Plains,,366,Strixhaven: School of Mages
+4,Plains,,367,Strixhaven: School of Mages
+6,Mountain,,372,Strixhaven: School of Mages
+6,Mountain,,373,Strixhaven: School of Mages
+4,Myr // Treasure,,10,Extras: Commander 2021
+3,Copy // Construct,,11,Extras: Commander 2021
+1,Thopter // Golem,,12,Extras: Commander 2021
+1,Thopter // Golem,,13,Extras: Commander 2021
+1,Thopter // Golem,,14,Extras: Commander 2021

@@ -1,3 +1,34 @@
+## [2.1.0] - 2022-10-05 <br />&nbsp; _<font color=#eea>CSV Audit</font>_
+
+### Added
+- Warhammer 40K decks
+- Game Night: Free-for-All
+
+### Removed
+- Removed the language column from all CSVs (except the JP challenger decks) now that users can select their own language
+
+### Changed
+- Included thick display commanders in all existing CSVs
+- Separated cards in some multi-deck CSVs into their separate decks so users can more easily modify the CSV:
+  * Unsanctioned
+  * FRF clash pack "Power & Profit"
+  * M15 clash pack "Fate & Fury"
+- Standardized CSV order to be:
+  1. foil face cards, incl. oversized/thick
+  2. other cards in edition/CN order
+  3. basic lands
+  4. tokens or other extras
+  5. sideboard in edition/CN order
+
+### Fixed
+- Removed decklist labels (e.g. "SIDEBOARD") from CSVs, which broke import after a recent Deckbox update
+- Fixed some errors where consecutive basic lands had erroneous editions (such as Magic 2013 - Magic 2016) due to Excel's autofill
+- Added missing card from Basri JMP decklist
+- Marked Torment theme deck "Insanity" as unverified, since basic lands weren't split up
+- Fixed tokens that had been renamed (notably Token: Shapeshifter)
+- Fixed DFCs that originally hadn't had their back face's name in the Deckbox card name, but now do and thus broke import
+
+
 ## [2.0.2] - 2022-09-18
 
 ### Added

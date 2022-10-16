@@ -518,7 +518,6 @@ fieldset .userOption.halfWidth {
     top: 50%;
     transform: translateY(-50%);
     display: flex;
-    display: none;
     align-items: center;
     padding: 0.5rem;
     padding-left: 4rem;
@@ -568,7 +567,7 @@ a.missing .color {
     background-color: green;
     background-image: url(https://gatherer.wizards.com/images/Redesign/Green_Mana.png);
 }
-/*.color, .disabled, .disabled + .list, .missing {display:none!important}
+/*.disabled, .disabled + .list, .missing, */.color, .hide {display:none!important}
 
 
 /* Random Styles */

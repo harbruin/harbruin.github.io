@@ -1,80 +1,81 @@
-Count,Name,Foil,Card Number,Edition,Language
-1,"Wilhelt, the Rotcleaver",foil,2,Innistrad: Midnight Hunt Commander,English
-1,"Eloise, Nephalia Sleuth",foil,3,Innistrad: Midnight Hunt Commander,English
-1,Cleaver Skaab,,11,Innistrad: Midnight Hunt Commander,English
-1,Curse of Unbinding,,12,Innistrad: Midnight Hunt Commander,English
-1,Drown in Dreams,,13,Innistrad: Midnight Hunt Commander,English
-1,Empty the Laboratory,,14,Innistrad: Midnight Hunt Commander,English
-1,Hordewing Skaab,,15,Innistrad: Midnight Hunt Commander,English
-1,Shadow Kin,,16,Innistrad: Midnight Hunt Commander,English
-1,Crowded Crypt,,17,Innistrad: Midnight Hunt Commander,English
-1,Curse of the Restless Dead,,18,Innistrad: Midnight Hunt Commander,English
-1,Ghouls' Night Out,,19,Innistrad: Midnight Hunt Commander,English
-1,"Gorex, the Tombshell",,20,Innistrad: Midnight Hunt Commander,English
-1,Prowling Geistcatcher,,21,Innistrad: Midnight Hunt Commander,English
-1,Ravenous Rotbelly,,22,Innistrad: Midnight Hunt Commander,English
-1,Tomb Tyrant,,23,Innistrad: Midnight Hunt Commander,English
-1,Aetherspouts,,97,Innistrad: Midnight Hunt Commander,English
-1,Distant Melody,,98,Innistrad: Midnight Hunt Commander,English
-1,Eternal Skylord,,99,Innistrad: Midnight Hunt Commander,English
-1,Forgotten Creation,,100,Innistrad: Midnight Hunt Commander,English
-1,Havengul Runebinder,,101,Innistrad: Midnight Hunt Commander,English
-1,Hour of Eternity,,102,Innistrad: Midnight Hunt Commander,English
-1,Rooftop Storm,,103,Innistrad: Midnight Hunt Commander,English
-1,Stitcher Geralf,,104,Innistrad: Midnight Hunt Commander,English
-1,Undead Alchemist,,105,Innistrad: Midnight Hunt Commander,English
-1,Army of the Damned,,106,Innistrad: Midnight Hunt Commander,English
-1,Butcher of Malakir,,107,Innistrad: Midnight Hunt Commander,English
-1,Cemetery Reaper,,108,Innistrad: Midnight Hunt Commander,English
-1,Corpse Augur,,109,Innistrad: Midnight Hunt Commander,English
-1,Dark Salvation,,110,Innistrad: Midnight Hunt Commander,English
-1,Death Baron,,111,Innistrad: Midnight Hunt Commander,English
-1,Diregraf Colossus,,112,Innistrad: Midnight Hunt Commander,English
-1,Dread Summons,,113,Innistrad: Midnight Hunt Commander,English
-1,Dreadhorde Invasion,,114,Innistrad: Midnight Hunt Commander,English
-1,Eater of Hope,,115,Innistrad: Midnight Hunt Commander,English
-1,Endless Ranks of the Dead,,116,Innistrad: Midnight Hunt Commander,English
-1,Feed the Swarm,,117,Innistrad: Midnight Hunt Commander,English
-1,Fleshbag Marauder,,118,Innistrad: Midnight Hunt Commander,English
-1,Go for the Throat,,119,Innistrad: Midnight Hunt Commander,English
-1,Gravespawn Sovereign,,120,Innistrad: Midnight Hunt Commander,English
-1,"Liliana, Death's Majesty",,121,Innistrad: Midnight Hunt Commander,English
-1,Liliana's Devotee,,122,Innistrad: Midnight Hunt Commander,English
-1,Liliana's Mastery,,123,Innistrad: Midnight Hunt Commander,English
-1,Lord of the Accursed,,124,Innistrad: Midnight Hunt Commander,English
-1,Midnight Reaper,,125,Innistrad: Midnight Hunt Commander,English
-1,Open the Graves,,126,Innistrad: Midnight Hunt Commander,English
-1,Overseer of the Damned,,127,Innistrad: Midnight Hunt Commander,English
-1,Spark Reaper,,128,Innistrad: Midnight Hunt Commander,English
-1,Syphon Flesh,,129,Innistrad: Midnight Hunt Commander,English
-1,Undead Augur,,130,Innistrad: Midnight Hunt Commander,English
-1,Zombie Apocalypse,,131,Innistrad: Midnight Hunt Commander,English
-1,Diregraf Captain,,148,Innistrad: Midnight Hunt Commander,English
-1,Gisa and Geralf,,150,Innistrad: Midnight Hunt Commander,English
-1,Gleaming Overseer,,151,Innistrad: Midnight Hunt Commander,English
-1,Ruthless Deathfang,,154,Innistrad: Midnight Hunt Commander,English
-1,Arcane Signet,,157,Innistrad: Midnight Hunt Commander,English
-1,Charcoal Diamond,,158,Innistrad: Midnight Hunt Commander,English
-1,Commander's Sphere,,159,Innistrad: Midnight Hunt Commander,English
-1,Sky Diamond,,161,Innistrad: Midnight Hunt Commander,English
-1,Sol Ring,,162,Innistrad: Midnight Hunt Commander,English
-1,Talisman of Dominance,,164,Innistrad: Midnight Hunt Commander,English
-1,Bojuka Bog,,167,Innistrad: Midnight Hunt Commander,English
-1,Choked Estuary,,169,Innistrad: Midnight Hunt Commander,English
-1,Command Tower,,170,Innistrad: Midnight Hunt Commander,English
-1,Darkwater Catacombs,,171,Innistrad: Midnight Hunt Commander,English
-1,Dimir Aqueduct,,172,Innistrad: Midnight Hunt Commander,English
-1,Exotic Orchard,,173,Innistrad: Midnight Hunt Commander,English
-1,Mortuary Mire,,176,Innistrad: Midnight Hunt Commander,English
-1,Myriad Landscape,,177,Innistrad: Midnight Hunt Commander,English
-1,Path of Ancestry,,178,Innistrad: Midnight Hunt Commander,English
-1,Sunken Hollow,,182,Innistrad: Midnight Hunt Commander,English
-1,Tainted Isle,,183,Innistrad: Midnight Hunt Commander,English
-1,Temple of Deceit,,184,Innistrad: Midnight Hunt Commander,English
-1,Unclaimed Territory,,187,Innistrad: Midnight Hunt Commander,English
-12,Island,,381,Innistrad: Midnight Hunt,English
-15,Swamp,,382,Innistrad: Midnight Hunt,English
-1,Zombie // Zombie Army,,12,Extras: Innistrad: Midnight Hunt Commander,English
-6,Zombie // Zombie,,13,Extras: Innistrad: Midnight Hunt Commander,English
-2,Zombie // Zombie,,14,Extras: Innistrad: Midnight Hunt Commander,English
-1,Zombie // Clue,,31,Extras: Innistrad: Midnight Hunt,English
+Count,Name,Foil,Card Number,Edition
+1,"Wilhelt, the Rotcleaver",foil,2,Midnight Hunt Display Commanders
+1,"Wilhelt, the Rotcleaver",foil,2,Innistrad: Midnight Hunt Commander
+1,"Eloise, Nephalia Sleuth",foil,3,Innistrad: Midnight Hunt Commander
+1,Cleaver Skaab,,11,Innistrad: Midnight Hunt Commander
+1,Curse of Unbinding,,12,Innistrad: Midnight Hunt Commander
+1,Drown in Dreams,,13,Innistrad: Midnight Hunt Commander
+1,Empty the Laboratory,,14,Innistrad: Midnight Hunt Commander
+1,Hordewing Skaab,,15,Innistrad: Midnight Hunt Commander
+1,Shadow Kin,,16,Innistrad: Midnight Hunt Commander
+1,Crowded Crypt,,17,Innistrad: Midnight Hunt Commander
+1,Curse of the Restless Dead,,18,Innistrad: Midnight Hunt Commander
+1,Ghouls' Night Out,,19,Innistrad: Midnight Hunt Commander
+1,"Gorex, the Tombshell",,20,Innistrad: Midnight Hunt Commander
+1,Prowling Geistcatcher,,21,Innistrad: Midnight Hunt Commander
+1,Ravenous Rotbelly,,22,Innistrad: Midnight Hunt Commander
+1,Tomb Tyrant,,23,Innistrad: Midnight Hunt Commander
+1,Aetherspouts,,97,Innistrad: Midnight Hunt Commander
+1,Distant Melody,,98,Innistrad: Midnight Hunt Commander
+1,Eternal Skylord,,99,Innistrad: Midnight Hunt Commander
+1,Forgotten Creation,,100,Innistrad: Midnight Hunt Commander
+1,Havengul Runebinder,,101,Innistrad: Midnight Hunt Commander
+1,Hour of Eternity,,102,Innistrad: Midnight Hunt Commander
+1,Rooftop Storm,,103,Innistrad: Midnight Hunt Commander
+1,Stitcher Geralf,,104,Innistrad: Midnight Hunt Commander
+1,Undead Alchemist,,105,Innistrad: Midnight Hunt Commander
+1,Army of the Damned,,106,Innistrad: Midnight Hunt Commander
+1,Butcher of Malakir,,107,Innistrad: Midnight Hunt Commander
+1,Cemetery Reaper,,108,Innistrad: Midnight Hunt Commander
+1,Corpse Augur,,109,Innistrad: Midnight Hunt Commander
+1,Dark Salvation,,110,Innistrad: Midnight Hunt Commander
+1,Death Baron,,111,Innistrad: Midnight Hunt Commander
+1,Diregraf Colossus,,112,Innistrad: Midnight Hunt Commander
+1,Dread Summons,,113,Innistrad: Midnight Hunt Commander
+1,Dreadhorde Invasion,,114,Innistrad: Midnight Hunt Commander
+1,Eater of Hope,,115,Innistrad: Midnight Hunt Commander
+1,Endless Ranks of the Dead,,116,Innistrad: Midnight Hunt Commander
+1,Feed the Swarm,,117,Innistrad: Midnight Hunt Commander
+1,Fleshbag Marauder,,118,Innistrad: Midnight Hunt Commander
+1,Go for the Throat,,119,Innistrad: Midnight Hunt Commander
+1,Gravespawn Sovereign,,120,Innistrad: Midnight Hunt Commander
+1,"Liliana, Death's Majesty",,121,Innistrad: Midnight Hunt Commander
+1,Liliana's Devotee,,122,Innistrad: Midnight Hunt Commander
+1,Liliana's Mastery,,123,Innistrad: Midnight Hunt Commander
+1,Lord of the Accursed,,124,Innistrad: Midnight Hunt Commander
+1,Midnight Reaper,,125,Innistrad: Midnight Hunt Commander
+1,Open the Graves,,126,Innistrad: Midnight Hunt Commander
+1,Overseer of the Damned,,127,Innistrad: Midnight Hunt Commander
+1,Spark Reaper,,128,Innistrad: Midnight Hunt Commander
+1,Syphon Flesh,,129,Innistrad: Midnight Hunt Commander
+1,Undead Augur,,130,Innistrad: Midnight Hunt Commander
+1,Zombie Apocalypse,,131,Innistrad: Midnight Hunt Commander
+1,Diregraf Captain,,148,Innistrad: Midnight Hunt Commander
+1,Gisa and Geralf,,150,Innistrad: Midnight Hunt Commander
+1,Gleaming Overseer,,151,Innistrad: Midnight Hunt Commander
+1,Ruthless Deathfang,,154,Innistrad: Midnight Hunt Commander
+1,Arcane Signet,,157,Innistrad: Midnight Hunt Commander
+1,Charcoal Diamond,,158,Innistrad: Midnight Hunt Commander
+1,Commander's Sphere,,159,Innistrad: Midnight Hunt Commander
+1,Sky Diamond,,161,Innistrad: Midnight Hunt Commander
+1,Sol Ring,,162,Innistrad: Midnight Hunt Commander
+1,Talisman of Dominance,,164,Innistrad: Midnight Hunt Commander
+1,Bojuka Bog,,167,Innistrad: Midnight Hunt Commander
+1,Choked Estuary,,169,Innistrad: Midnight Hunt Commander
+1,Command Tower,,170,Innistrad: Midnight Hunt Commander
+1,Darkwater Catacombs,,171,Innistrad: Midnight Hunt Commander
+1,Dimir Aqueduct,,172,Innistrad: Midnight Hunt Commander
+1,Exotic Orchard,,173,Innistrad: Midnight Hunt Commander
+1,Mortuary Mire,,176,Innistrad: Midnight Hunt Commander
+1,Myriad Landscape,,177,Innistrad: Midnight Hunt Commander
+1,Path of Ancestry,,178,Innistrad: Midnight Hunt Commander
+1,Sunken Hollow,,182,Innistrad: Midnight Hunt Commander
+1,Tainted Isle,,183,Innistrad: Midnight Hunt Commander
+1,Temple of Deceit,,184,Innistrad: Midnight Hunt Commander
+1,Unclaimed Territory,,187,Innistrad: Midnight Hunt Commander
+12,Island,,381,Innistrad: Midnight Hunt
+15,Swamp,,382,Innistrad: Midnight Hunt
+1,Zombie // Zombie Army,,12,Extras: Innistrad: Midnight Hunt Commander
+6,Zombie // Zombie,,13,Extras: Innistrad: Midnight Hunt Commander
+2,Zombie // Zombie,,14,Extras: Innistrad: Midnight Hunt Commander
+1,Zombie // Clue,,31,Extras: Innistrad: Midnight Hunt

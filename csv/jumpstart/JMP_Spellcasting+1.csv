@@ -1,19 +1,19 @@
-﻿Count,Name,Card Number,Edition,Language
-1,Spellcasting,35,Jumpstart Front Cards,English
-1,Lightning Visionary,22,Jumpstart,English
-1,Living Lightning,23,Jumpstart,English
-1,Thriving Bluff,33,Jumpstart,English
-1,Mountain,66,Jumpstart,English
-1,Blindblast,295,Jumpstart,English
-1,Hungry Flames,336,Jumpstart,English
-1,Thermo-Alchemist,365,Jumpstart,English
-1,Chandra's Pyreling,138,Core Set 2021,English
-1,Double Vision,142,Core Set 2021,English
-1,Goblin Wizardry,148,Core Set 2021,English
-1,Heartfire Immolator,150,Core Set 2021,English
-1,Kinetic Augur,154,Core Set 2021,English
-1,Shock,159,Core Set 2021,English
-1,Thrill of Possibility,165,Core Set 2021,English
-2,Mountain,269,Core Set 2021,English
-2,Mountain,270,Core Set 2021,English
-2,Mountain,271,Core Set 2021,English
+﻿Count,Name,Foil,Card Number,Edition
+1,Spellcasting,,35,Jumpstart Front Cards
+1,Lightning Visionary,,22,Jumpstart
+1,Living Lightning,,23,Jumpstart
+1,Thriving Bluff,,33,Jumpstart
+1,Blindblast,,295,Jumpstart
+1,Hungry Flames,,336,Jumpstart
+1,Thermo-Alchemist,,365,Jumpstart
+1,Chandra's Pyreling,,138,Core Set 2021
+1,Double Vision,,142,Core Set 2021
+1,Goblin Wizardry,,148,Core Set 2021
+1,Heartfire Immolator,,150,Core Set 2021
+1,Kinetic Augur,,154,Core Set 2021
+1,Shock,,159,Core Set 2021
+1,Thrill of Possibility,,165,Core Set 2021
+2,Mountain,,269,Core Set 2021
+2,Mountain,,270,Core Set 2021
+2,Mountain,,271,Core Set 2021
+1,Mountain,,66,Jumpstart

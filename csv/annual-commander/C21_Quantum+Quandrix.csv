@@ -1,92 +1,93 @@
-﻿Count,Name,Foil,Card Number,Edition,Language
-1,"Adrix and Nev, Twincasters",foil,9,Commander 2021,English
-1,"Esix, Fractal Bloom",foil,10,Commander 2021,English
-1,Commander's Insight,,23,Commander 2021,English
-1,Curiosity Crafter,,24,Commander 2021,English
-1,"Deekah, Fractal Theorist",,26,Commander 2021,English
-1,Perplexing Test,,30,Commander 2021,English
-1,Replication Technique,,31,Commander 2021,English
-1,Spawning Kraken,,33,Commander 2021,English
-1,Theoretical Duplication,,34,Commander 2021,English
-1,Fractal Harness,,61,Commander 2021,English
-1,Guardian Augmenter,,62,Commander 2021,English
-1,Paradox Zone,,64,Commander 2021,English
-1,"Ruxa, Patient Professor",,66,Commander 2021,English
-1,Sequence Engine,,67,Commander 2021,English
-1,Oversimplify,,72,Commander 2021,English
-1,Geometric Nexus,,77,Commander 2021,English
-1,Study Hall,,80,Commander 2021,English
-1,Desolation Twin,,82,Commander 2021,English
-1,Champion of Wits,,116,Commander 2021,English
-1,Crafty Cutpurse,,117,Commander 2021,English
-1,Curse of the Swine,,118,Commander 2021,English
-1,Rapid Hybridization,,126,Commander 2021,English
-1,Reef Worm,,127,Commander 2021,English
-1,Rite of Replication,,128,Commander 2021,English
-1,"Arashi, the Sky Asunder",,185,Commander 2021,English
-1,Beast Within,,186,Commander 2021,English
-1,Ezuri's Predation,,188,Commander 2021,English
-1,Forgotten Ancient,,189,Commander 2021,English
-1,"Garruk, Primal Hunter",,190,Commander 2021,English
-1,Hornet Nest,,192,Commander 2021,English
-1,Hornet Queen,,193,Commander 2021,English
-1,Hydra Broodmaster,,194,Commander 2021,English
-1,Incubation Druid,,195,Commander 2021,English
-1,Kazandu Tuskcaller,,196,Commander 2021,English
-1,Kodama's Reach,,197,Commander 2021,English
-1,Krosan Grip,,198,Commander 2021,English
-1,Managorger Hydra,,199,Commander 2021,English
-1,Nissa's Expedition,,200,Commander 2021,English
-1,Rampaging Baloths,,203,Commander 2021,English
-1,Rampant Growth,,204,Commander 2021,English
-1,Return of the Wildspeaker,,205,Commander 2021,English
-1,Shamanic Revelation,,206,Commander 2021,English
-1,Terastodon,,207,Commander 2021,English
-1,Biomass Mutation,,209,Commander 2021,English
-1,Coiling Oracle,,212,Commander 2021,English
-1,Incubation // Incongruity,,219,Commander 2021,English
-1,"Kaseto, Orochi Archmage",,221,Commander 2021,English
-1,Master Biomancer,,224,Commander 2021,English
-1,Plaxcaster Frogling,,226,Commander 2021,English
-1,Primal Empathy,,227,Commander 2021,English
-1,Spitting Image,,229,Commander 2021,English
-1,Trygon Predator,,231,Commander 2021,English
-1,Arcane Signet,,234,Commander 2021,English
-1,Idol of Oblivion,,246,Commander 2021,English
-1,Simic Signet,,262,Commander 2021,English
-1,Sol Ring,,263,Commander 2021,English
-1,Blighted Woodland,,280,Commander 2021,English
-1,Command Tower,,284,Commander 2021,English
-1,Exotic Orchard,,288,Commander 2021,English
-1,Llanowar Reborn,,296,Commander 2021,English
-1,Lonely Sandbar,,298,Commander 2021,English
-1,Lumbering Falls,,299,Commander 2021,English
-1,Mosswort Bridge,,303,Commander 2021,English
-1,Myriad Landscape,,304,Commander 2021,English
-1,"Novijen, Heart of Progress",,305,Commander 2021,English
-1,Opal Palace,,306,Commander 2021,English
-1,"Oran-Rief, the Vastwood",,307,Commander 2021,English
-1,Rogue's Passage,,312,Commander 2021,English
-1,Simic Growth Chamber,,317,Commander 2021,English
-1,Temple of Mystery,,324,Commander 2021,English
-1,Temple of the False God,,326,Commander 2021,English
-1,Tranquil Thicket,,408,Commander 2021,English
-1,Yavimaya Coast,,409,Commander 2021,English
-1,Biomathematician,,164,Strixhaven: School of Mages,English
-1,Eureka Moment,,184,Strixhaven: School of Mages,English
-1,Golden Ratio,,190,Strixhaven: School of Mages,English
-1,Quandrix Cultivator,,218,Strixhaven: School of Mages,English
-1,"Zimone, Quandrix Prodigy",,250,Strixhaven: School of Mages,English
-1,Quandrix Campus,,271,Strixhaven: School of Mages,English
-5,Island,,368,Strixhaven: School of Mages,English
-5,Island,,369,Strixhaven: School of Mages,English
-6,Forest,,374,Strixhaven: School of Mages,English
-5,Forest,,375,Strixhaven: School of Mages,English
-3,Fractal // Copy,,15,Extras: Commander 2021,English
-1,Beast // Fish,,16,Extras: Commander 2021,English
-1,Beast // Whale,,17,Extras: Commander 2021,English
-1,Wurm // Kraken,,18,Extras: Commander 2021,English
-1,Beast // Insect,,19,Extras: Commander 2021,English
-1,Hydra // Boar,,20,Extras: Commander 2021,English
-1,Frog Lizard // Elephant,,21,Extras: Commander 2021,English
-1,Eldrazi // Champion of Wits,,22,Extras: Commander 2021,English
+﻿Count,Name,Foil,Card Number,Edition
+1,"Adrix and Nev, Twincasters",foil,9,Commander 2021 Display Commanders
+1,"Adrix and Nev, Twincasters",foil,9,Commander 2021
+1,"Esix, Fractal Bloom",foil,10,Commander 2021
+1,Commander's Insight,,23,Commander 2021
+1,Curiosity Crafter,,24,Commander 2021
+1,"Deekah, Fractal Theorist",,26,Commander 2021
+1,Perplexing Test,,30,Commander 2021
+1,Replication Technique,,31,Commander 2021
+1,Spawning Kraken,,33,Commander 2021
+1,Theoretical Duplication,,34,Commander 2021
+1,Fractal Harness,,61,Commander 2021
+1,Guardian Augmenter,,62,Commander 2021
+1,Paradox Zone,,64,Commander 2021
+1,"Ruxa, Patient Professor",,66,Commander 2021
+1,Sequence Engine,,67,Commander 2021
+1,Oversimplify,,72,Commander 2021
+1,Geometric Nexus,,77,Commander 2021
+1,Study Hall,,80,Commander 2021
+1,Desolation Twin,,82,Commander 2021
+1,Champion of Wits,,116,Commander 2021
+1,Crafty Cutpurse,,117,Commander 2021
+1,Curse of the Swine,,118,Commander 2021
+1,Rapid Hybridization,,126,Commander 2021
+1,Reef Worm,,127,Commander 2021
+1,Rite of Replication,,128,Commander 2021
+1,"Arashi, the Sky Asunder",,185,Commander 2021
+1,Beast Within,,186,Commander 2021
+1,Ezuri's Predation,,188,Commander 2021
+1,Forgotten Ancient,,189,Commander 2021
+1,"Garruk, Primal Hunter",,190,Commander 2021
+1,Hornet Nest,,192,Commander 2021
+1,Hornet Queen,,193,Commander 2021
+1,Hydra Broodmaster,,194,Commander 2021
+1,Incubation Druid,,195,Commander 2021
+1,Kazandu Tuskcaller,,196,Commander 2021
+1,Kodama's Reach,,197,Commander 2021
+1,Krosan Grip,,198,Commander 2021
+1,Managorger Hydra,,199,Commander 2021
+1,Nissa's Expedition,,200,Commander 2021
+1,Rampaging Baloths,,203,Commander 2021
+1,Rampant Growth,,204,Commander 2021
+1,Return of the Wildspeaker,,205,Commander 2021
+1,Shamanic Revelation,,206,Commander 2021
+1,Terastodon,,207,Commander 2021
+1,Biomass Mutation,,209,Commander 2021
+1,Coiling Oracle,,212,Commander 2021
+1,Incubation // Incongruity,,219,Commander 2021
+1,"Kaseto, Orochi Archmage",,221,Commander 2021
+1,Master Biomancer,,224,Commander 2021
+1,Plaxcaster Frogling,,226,Commander 2021
+1,Primal Empathy,,227,Commander 2021
+1,Spitting Image,,229,Commander 2021
+1,Trygon Predator,,231,Commander 2021
+1,Arcane Signet,,234,Commander 2021
+1,Idol of Oblivion,,246,Commander 2021
+1,Simic Signet,,262,Commander 2021
+1,Sol Ring,,263,Commander 2021
+1,Blighted Woodland,,280,Commander 2021
+1,Command Tower,,284,Commander 2021
+1,Exotic Orchard,,288,Commander 2021
+1,Llanowar Reborn,,296,Commander 2021
+1,Lonely Sandbar,,298,Commander 2021
+1,Lumbering Falls,,299,Commander 2021
+1,Mosswort Bridge,,303,Commander 2021
+1,Myriad Landscape,,304,Commander 2021
+1,"Novijen, Heart of Progress",,305,Commander 2021
+1,Opal Palace,,306,Commander 2021
+1,"Oran-Rief, the Vastwood",,307,Commander 2021
+1,Rogue's Passage,,312,Commander 2021
+1,Simic Growth Chamber,,317,Commander 2021
+1,Temple of Mystery,,324,Commander 2021
+1,Temple of the False God,,326,Commander 2021
+1,Tranquil Thicket,,408,Commander 2021
+1,Yavimaya Coast,,409,Commander 2021
+1,Biomathematician,,164,Strixhaven: School of Mages
+1,Eureka Moment,,184,Strixhaven: School of Mages
+1,Golden Ratio,,190,Strixhaven: School of Mages
+1,Quandrix Cultivator,,218,Strixhaven: School of Mages
+1,"Zimone, Quandrix Prodigy",,250,Strixhaven: School of Mages
+1,Quandrix Campus,,271,Strixhaven: School of Mages
+5,Island,,368,Strixhaven: School of Mages
+5,Island,,369,Strixhaven: School of Mages
+6,Forest,,374,Strixhaven: School of Mages
+5,Forest,,375,Strixhaven: School of Mages
+3,Fractal // Copy,,15,Extras: Commander 2021
+1,Beast // Fish,,16,Extras: Commander 2021
+1,Beast // Whale,,17,Extras: Commander 2021
+1,Wurm // Kraken,,18,Extras: Commander 2021
+1,Beast // Insect,,19,Extras: Commander 2021
+1,Hydra // Boar,,20,Extras: Commander 2021
+1,Frog Lizard // Elephant,,21,Extras: Commander 2021
+1,Eldrazi // Champion of Wits,,22,Extras: Commander 2021
